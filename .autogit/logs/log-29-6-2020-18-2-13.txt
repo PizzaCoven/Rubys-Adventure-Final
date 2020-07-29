@@ -1,0 +1,738 @@
+-------------------- Auto-Git Log --------------------
+		Wed Jul 29 2020 18:02:13 GMT-0400 (Eastern Daylight Time)
+------------------------------------------------------
+
+Modified files:
+
+
+Created files:
+* .DS_Store
+* .autogit/autogit.json
+* Assets/.DS_Store
+* Assets/Art.meta
+* Assets/Art/.DS_Store
+* Assets/Art/Animations.meta
+* Assets/Art/Animations/AnimationClips.meta
+* Assets/Art/Animations/AnimationClips/AmmoCollectibles.anim
+* Assets/Art/Animations/AnimationClips/AmmoCollectibles.anim.meta
+* Assets/Art/Animations/AnimationClips/Enemy.meta
+* Assets/Art/Animations/AnimationClips/HealtCollectibles.anim
+* Assets/Art/Animations/AnimationClips/HealtCollectibles.anim.meta
+* Assets/Art/Animations/AnimationClips/JambiIdle.anim
+* Assets/Art/Animations/AnimationClips/JambiIdle.anim.meta
+* Assets/Art/Animations/AnimationClips/Player.meta
+* Assets/Art/Animations/AnimationClips/Player/RubyHitDown.anim
+* Assets/Art/Animations/AnimationClips/Player/RubyHitDown.anim.meta
+* Assets/Art/Animations/AnimationClips/Player/RubyHitLeft.anim
+* Assets/Art/Animations/AnimationClips/Player/RubyHitLeft.anim.meta
+* Assets/Art/Animations/AnimationClips/Player/RubyHitRight.anim
+* Assets/Art/Animations/AnimationClips/Player/RubyHitRight.anim.meta
+* Assets/Art/Animations/AnimationClips/Player/RubyHitUp.anim
+* Assets/Art/Animations/AnimationClips/Player/RubyHitUp.anim.meta
+* Assets/Art/Animations/AnimationClips/Player/RubyIdleDown.anim
+* Assets/Art/Animations/AnimationClips/Player/RubyIdleDown.anim.meta
+* Assets/Art/Animations/AnimationClips/Player/RubyIdleLeft.anim
+* Assets/Art/Animations/AnimationClips/Player/RubyIdleLeft.anim.meta
+* Assets/Art/Animations/AnimationClips/Player/RubyIdleRight.anim
+* Assets/Art/Animations/AnimationClips/Player/RubyIdleRight.anim.meta
+* Assets/Art/Animations/AnimationClips/Player/RubyIdleUp.anim
+* Assets/Art/Animations/AnimationClips/Player/RubyIdleUp.anim.meta
+* Assets/Art/Animations/AnimationClips/Player/RubyLaunchDown.anim
+* Assets/Art/Animations/AnimationClips/Player/RubyLaunchDown.anim.meta
+* Assets/Art/Animations/AnimationClips/Player/RubyLaunchLeft.anim
+* Assets/Art/Animations/AnimationClips/Player/RubyLaunchLeft.anim.meta
+* Assets/Art/Animations/AnimationClips/Player/RubyLaunchRight.anim
+* Assets/Art/Animations/AnimationClips/Player/RubyLaunchRight.anim.meta
+* Assets/Art/Animations/AnimationClips/Player/RubyLaunchUp.anim
+* Assets/Art/Animations/AnimationClips/Player/RubyLaunchUp.anim.meta
+* Assets/Art/Animations/AnimationClips/Player/RubyRunDown.anim
+* Assets/Art/Animations/AnimationClips/Player/RubyRunDown.anim.meta
+* Assets/Art/Animations/AnimationClips/Player/RubyRunLeft.anim
+* Assets/Art/Animations/AnimationClips/Player/RubyRunLeft.anim.meta
+* Assets/Art/Animations/AnimationClips/Player/RubyRunRight.anim
+* Assets/Art/Animations/AnimationClips/Player/RubyRunRight.anim.meta
+* Assets/Art/Animations/AnimationClips/Player/RubyRunUp.anim
+* Assets/Art/Animations/AnimationClips/Player/RubyRunUp.anim.meta
+* Assets/Art/Animations/Animators.meta
+* Assets/Art/Animations/Animators/CollectibleAmmo.controller
+* Assets/Art/Animations/Animators/CollectibleAmmo.controller.meta
+* Assets/Art/Animations/Animators/Enemy.controller
+* Assets/Art/Animations/Animators/Enemy.controller.meta
+* Assets/Art/Animations/Animators/NPC.controller
+* Assets/Art/Animations/Animators/NPC.controller.meta
+* Assets/Art/Animations/Jambi.anim
+* Assets/Art/Animations/Jambi.anim.meta
+* Assets/Art/Animations/Jambi.controller
+* Assets/Art/Animations/Jambi.controller.meta
+* Assets/Art/Animations/MrClockworkFixed.anim
+* Assets/Art/Animations/MrClockworkFixed.anim.meta
+* Assets/Art/Animations/Robot.controller
+* Assets/Art/Animations/Robot.controller.meta
+* Assets/Art/Animations/RobotDown.anim
+* Assets/Art/Animations/RobotDown.anim.meta
+* Assets/Art/Animations/RobotLeft.anim
+* Assets/Art/Animations/RobotLeft.anim.meta
+* Assets/Art/Animations/RobotRight.anim
+* Assets/Art/Animations/RobotRight.anim.meta
+* Assets/Art/Animations/RobotUp.anim
+* Assets/Art/Animations/RobotUp.anim.meta
+* Assets/Art/Animations/Ruby.controller
+* Assets/Art/Animations/Ruby.controller.meta
+* Assets/Art/Sprites.meta
+* Assets/Art/Sprites/.DS_Store
+* Assets/Art/Sprites/Characters.meta
+* "Assets/Art/Sprites/Characters/CM vcam1.controller"
+* "Assets/Art/Sprites/Characters/CM vcam1.controller.meta"
+* Assets/Art/Sprites/Characters/JambiSheet.png
+* Assets/Art/Sprites/Characters/JambiSheet.png.meta
+* Assets/Art/Sprites/Characters/MrClockworkSheet.png
+* Assets/Art/Sprites/Characters/MrClockworkSheet.png.meta
+* Assets/Art/Sprites/Characters/Ruby.png
+* Assets/Art/Sprites/Characters/Ruby.png.meta
+* Assets/Art/Sprites/Characters/RubySheet.png
+* Assets/Art/Sprites/Characters/RubySheet.png.meta
+* Assets/Art/Sprites/Characters/bot.png
+* Assets/Art/Sprites/Characters/bot.png.meta
+* Assets/Art/Sprites/Environmnent.meta
+* Assets/Art/Sprites/Environmnent/Damageable.png
+* Assets/Art/Sprites/Environmnent/Damageable.png.meta
+* Assets/Art/Sprites/Environmnent/DrainCover.png
+* Assets/Art/Sprites/Environmnent/DrainCover.png.meta
+* Assets/Art/Sprites/Environmnent/FloorBricksToGrassCorner.png
+* Assets/Art/Sprites/Environmnent/FloorBricksToGrassCorner.png.meta
+* Assets/Art/Sprites/Environmnent/FloorBricksToGrassSquare.png
+* Assets/Art/Sprites/Environmnent/FloorBricksToGrassSquare.png.meta
+* Assets/Art/Sprites/Environmnent/FloorGrassToBricksCorner.png
+* Assets/Art/Sprites/Environmnent/FloorGrassToBricksCorner.png.meta
+* Assets/Art/Sprites/Environmnent/FloorGrassToBricksSquare.png
+* Assets/Art/Sprites/Environmnent/FloorGrassToBricksSquare.png.meta
+* Assets/Art/Sprites/Environmnent/FloorWaterRoundCorners.png
+* Assets/Art/Sprites/Environmnent/FloorWaterRoundCorners.png.meta
+* Assets/Art/Sprites/Environmnent/FloorWaterSquareCorners.png
+* Assets/Art/Sprites/Environmnent/FloorWaterSquareCorners.png.meta
+* Assets/Art/Sprites/Environmnent/GrassSmall.png
+* Assets/Art/Sprites/Environmnent/GrassSmall.png.meta
+* Assets/Art/Sprites/Environmnent/House.png
+* Assets/Art/Sprites/Environmnent/House.png.meta
+* Assets/Art/Sprites/Environmnent/LotusFlower.png
+* Assets/Art/Sprites/Environmnent/LotusFlower.png.meta
+* Assets/Art/Sprites/Environmnent/Materials.meta
+* Assets/Art/Sprites/Environmnent/Materials/GrassSmall.mat
+* Assets/Art/Sprites/Environmnent/Materials/GrassSmall.mat.meta
+* Assets/Art/Sprites/Environmnent/MetalCube.png
+* Assets/Art/Sprites/Environmnent/MetalCube.png.meta
+* Assets/Art/Sprites/Environmnent/Mushrooms.png
+* Assets/Art/Sprites/Environmnent/Mushrooms.png.meta
+* Assets/Art/Sprites/Environmnent/TelegraphPost.png
+* Assets/Art/Sprites/Environmnent/TelegraphPost.png.meta
+* Assets/Art/Sprites/Environmnent/TreeBig1.png
+* Assets/Art/Sprites/Environmnent/TreeBig1.png.meta
+* Assets/Art/Sprites/Environmnent/TreeBig2.png
+* Assets/Art/Sprites/Environmnent/TreeBig2.png.meta
+* Assets/Art/Sprites/Environmnent/TreeBig3.png
+* Assets/Art/Sprites/Environmnent/TreeBig3.png.meta
+* Assets/Art/Sprites/Environmnent/TreeForeground.asset
+* Assets/Art/Sprites/Environmnent/TreeForeground.asset.meta
+* Assets/Art/Sprites/Environmnent/TreeForeground.png
+* Assets/Art/Sprites/Environmnent/TreeForeground.png.meta
+* Assets/Art/Sprites/Environmnent/TreeLittle.png
+* Assets/Art/Sprites/Environmnent/TreeLittle.png.meta
+* Assets/Art/Sprites/Environmnent/TreeShadow.png
+* Assets/Art/Sprites/Environmnent/TreeShadow.png.meta
+* Assets/Art/Sprites/Environmnent/tilemap.asset
+* Assets/Art/Sprites/Environmnent/tilemap.asset.meta
+* Assets/Art/Sprites/Environmnent/tilemap.png
+* Assets/Art/Sprites/Environmnent/tilemap.png.meta
+* Assets/Art/Sprites/UI.meta
+* Assets/Art/Sprites/UI/CharacterPortrait.png
+* Assets/Art/Sprites/UI/CharacterPortrait.png.meta
+* Assets/Art/Sprites/UI/NPCPortrait.png
+* Assets/Art/Sprites/UI/NPCPortrait.png.meta
+* Assets/Art/Sprites/UI/UIBulletIcon.png
+* Assets/Art/Sprites/UI/UIBulletIcon.png.meta
+* Assets/Art/Sprites/UI/UIDialogueBox.png
+* Assets/Art/Sprites/UI/UIDialogueBox.png.meta
+* Assets/Art/Sprites/UI/UIHealthBar.png
+* Assets/Art/Sprites/UI/UIHealthBar.png.meta
+* Assets/Art/Sprites/UI/UIHealthFrame.png
+* Assets/Art/Sprites/UI/UIHealthFrame.png.meta
+* Assets/Art/Sprites/VFX.meta
+* Assets/Art/Sprites/VFX/CogBullet.png
+* Assets/Art/Sprites/VFX/CogBullet.png.meta
+* Assets/Art/Sprites/VFX/CollectibleAmmo.png
+* Assets/Art/Sprites/VFX/CollectibleAmmo.png.meta
+* Assets/Art/Sprites/VFX/CollectibleHealth.png
+* Assets/Art/Sprites/VFX/CollectibleHealth.png.meta
+* Assets/Art/Sprites/VFX/ParticleSpriteAtlas.png
+* Assets/Art/Sprites/VFX/ParticleSpriteAtlas.png.meta
+* Assets/Art/Sprites/VFX/Shadow.png
+* Assets/Art/Sprites/VFX/Shadow.png.meta
+* Assets/Art/Tiles.meta
+* Assets/Art/Tiles/FirstTile.asset
+* Assets/Art/Tiles/FirstTile.asset.meta
+* Assets/Art/Tiles/FloorBricksToGrassCorner_0.asset
+* Assets/Art/Tiles/FloorBricksToGrassCorner_0.asset.meta
+* Assets/Art/Tiles/FloorBricksToGrassCorner_1.asset
+* Assets/Art/Tiles/FloorBricksToGrassCorner_1.asset.meta
+* Assets/Art/Tiles/FloorBricksToGrassCorner_2.asset
+* Assets/Art/Tiles/FloorBricksToGrassCorner_2.asset.meta
+* Assets/Art/Tiles/FloorBricksToGrassCorner_3.asset
+* Assets/Art/Tiles/FloorBricksToGrassCorner_3.asset.meta
+* Assets/Art/Tiles/FloorBricksToGrassCorner_4.asset
+* Assets/Art/Tiles/FloorBricksToGrassCorner_4.asset.meta
+* Assets/Art/Tiles/FloorBricksToGrassCorner_5.asset
+* Assets/Art/Tiles/FloorBricksToGrassCorner_5.asset.meta
+* Assets/Art/Tiles/FloorBricksToGrassCorner_6.asset
+* Assets/Art/Tiles/FloorBricksToGrassCorner_6.asset.meta
+* Assets/Art/Tiles/FloorBricksToGrassCorner_7.asset
+* Assets/Art/Tiles/FloorBricksToGrassCorner_7.asset.meta
+* Assets/Art/Tiles/FloorBricksToGrassCorner_8.asset
+* Assets/Art/Tiles/FloorBricksToGrassCorner_8.asset.meta
+* Assets/Art/Tiles/FloorBricksToGrassSquare_0.asset
+* Assets/Art/Tiles/FloorBricksToGrassSquare_0.asset.meta
+* Assets/Art/Tiles/FloorBricksToGrassSquare_1.asset
+* Assets/Art/Tiles/FloorBricksToGrassSquare_1.asset.meta
+* Assets/Art/Tiles/FloorBricksToGrassSquare_2.asset
+* Assets/Art/Tiles/FloorBricksToGrassSquare_2.asset.meta
+* Assets/Art/Tiles/FloorBricksToGrassSquare_3.asset
+* Assets/Art/Tiles/FloorBricksToGrassSquare_3.asset.meta
+* Assets/Art/Tiles/FloorBricksToGrassSquare_4.asset
+* Assets/Art/Tiles/FloorBricksToGrassSquare_4.asset.meta
+* Assets/Art/Tiles/FloorBricksToGrassSquare_5.asset
+* Assets/Art/Tiles/FloorBricksToGrassSquare_5.asset.meta
+* Assets/Art/Tiles/FloorBricksToGrassSquare_6.asset
+* Assets/Art/Tiles/FloorBricksToGrassSquare_6.asset.meta
+* Assets/Art/Tiles/FloorBricksToGrassSquare_7.asset
+* Assets/Art/Tiles/FloorBricksToGrassSquare_7.asset.meta
+* Assets/Art/Tiles/FloorBricksToGrassSquare_8.asset
+* Assets/Art/Tiles/FloorBricksToGrassSquare_8.asset.meta
+* Assets/Art/Tiles/FloorGrassToBricksCorner_0.asset
+* Assets/Art/Tiles/FloorGrassToBricksCorner_0.asset.meta
+* Assets/Art/Tiles/FloorGrassToBricksCorner_1.asset
+* Assets/Art/Tiles/FloorGrassToBricksCorner_1.asset.meta
+* Assets/Art/Tiles/FloorGrassToBricksCorner_2.asset
+* Assets/Art/Tiles/FloorGrassToBricksCorner_2.asset.meta
+* Assets/Art/Tiles/FloorGrassToBricksCorner_3.asset
+* Assets/Art/Tiles/FloorGrassToBricksCorner_3.asset.meta
+* Assets/Art/Tiles/FloorGrassToBricksCorner_4.asset
+* Assets/Art/Tiles/FloorGrassToBricksCorner_4.asset.meta
+* Assets/Art/Tiles/FloorGrassToBricksCorner_5.asset
+* Assets/Art/Tiles/FloorGrassToBricksCorner_5.asset.meta
+* Assets/Art/Tiles/FloorGrassToBricksCorner_6.asset
+* Assets/Art/Tiles/FloorGrassToBricksCorner_6.asset.meta
+* Assets/Art/Tiles/FloorGrassToBricksCorner_7.asset
+* Assets/Art/Tiles/FloorGrassToBricksCorner_7.asset.meta
+* Assets/Art/Tiles/FloorGrassToBricksCorner_8.asset
+* Assets/Art/Tiles/FloorGrassToBricksCorner_8.asset.meta
+* Assets/Art/Tiles/FloorGrassToBricksSquare_0.asset
+* Assets/Art/Tiles/FloorGrassToBricksSquare_0.asset.meta
+* Assets/Art/Tiles/FloorGrassToBricksSquare_1.asset
+* Assets/Art/Tiles/FloorGrassToBricksSquare_1.asset.meta
+* Assets/Art/Tiles/FloorGrassToBricksSquare_2.asset
+* Assets/Art/Tiles/FloorGrassToBricksSquare_2.asset.meta
+* Assets/Art/Tiles/FloorGrassToBricksSquare_3.asset
+* Assets/Art/Tiles/FloorGrassToBricksSquare_3.asset.meta
+* Assets/Art/Tiles/FloorGrassToBricksSquare_4.asset
+* Assets/Art/Tiles/FloorGrassToBricksSquare_4.asset.meta
+* Assets/Art/Tiles/FloorGrassToBricksSquare_5.asset
+* Assets/Art/Tiles/FloorGrassToBricksSquare_5.asset.meta
+* Assets/Art/Tiles/FloorGrassToBricksSquare_6.asset
+* Assets/Art/Tiles/FloorGrassToBricksSquare_6.asset.meta
+* Assets/Art/Tiles/FloorGrassToBricksSquare_7.asset
+* Assets/Art/Tiles/FloorGrassToBricksSquare_7.asset.meta
+* Assets/Art/Tiles/FloorGrassToBricksSquare_8.asset
+* Assets/Art/Tiles/FloorGrassToBricksSquare_8.asset.meta
+* Assets/Art/Tiles/FloorWaterRoundCorners_0.asset
+* Assets/Art/Tiles/FloorWaterRoundCorners_0.asset.meta
+* Assets/Art/Tiles/FloorWaterRoundCorners_1.asset
+* Assets/Art/Tiles/FloorWaterRoundCorners_1.asset.meta
+* Assets/Art/Tiles/FloorWaterRoundCorners_2.asset
+* Assets/Art/Tiles/FloorWaterRoundCorners_2.asset.meta
+* Assets/Art/Tiles/FloorWaterRoundCorners_3.asset
+* Assets/Art/Tiles/FloorWaterRoundCorners_3.asset.meta
+* Assets/Art/Tiles/FloorWaterRoundCorners_4.asset
+* Assets/Art/Tiles/FloorWaterRoundCorners_4.asset.meta
+* Assets/Art/Tiles/FloorWaterRoundCorners_5.asset
+* Assets/Art/Tiles/FloorWaterRoundCorners_5.asset.meta
+* Assets/Art/Tiles/FloorWaterRoundCorners_6.asset
+* Assets/Art/Tiles/FloorWaterRoundCorners_6.asset.meta
+* Assets/Art/Tiles/FloorWaterRoundCorners_7.asset
+* Assets/Art/Tiles/FloorWaterRoundCorners_7.asset.meta
+* Assets/Art/Tiles/FloorWaterRoundCorners_8.asset
+* Assets/Art/Tiles/FloorWaterRoundCorners_8.asset.meta
+* Assets/Art/Tiles/FloorWaterSquareCorners_0.asset
+* Assets/Art/Tiles/FloorWaterSquareCorners_0.asset.meta
+* Assets/Art/Tiles/FloorWaterSquareCorners_1.asset
+* Assets/Art/Tiles/FloorWaterSquareCorners_1.asset.meta
+* Assets/Art/Tiles/FloorWaterSquareCorners_2.asset
+* Assets/Art/Tiles/FloorWaterSquareCorners_2.asset.meta
+* Assets/Art/Tiles/FloorWaterSquareCorners_3.asset
+* Assets/Art/Tiles/FloorWaterSquareCorners_3.asset.meta
+* Assets/Art/Tiles/FloorWaterSquareCorners_4.asset
+* Assets/Art/Tiles/FloorWaterSquareCorners_4.asset.meta
+* Assets/Art/Tiles/FloorWaterSquareCorners_5.asset
+* Assets/Art/Tiles/FloorWaterSquareCorners_5.asset.meta
+* Assets/Art/Tiles/FloorWaterSquareCorners_6.asset
+* Assets/Art/Tiles/FloorWaterSquareCorners_6.asset.meta
+* Assets/Art/Tiles/FloorWaterSquareCorners_7.asset
+* Assets/Art/Tiles/FloorWaterSquareCorners_7.asset.meta
+* Assets/Art/Tiles/FloorWaterSquareCorners_8.asset
+* Assets/Art/Tiles/FloorWaterSquareCorners_8.asset.meta
+* Assets/Art/Tiles/GamePalette.prefab
+* Assets/Art/Tiles/GamePalette.prefab.meta
+* Assets/Art/Tiles/GrassSmall.asset
+* Assets/Art/Tiles/GrassSmall.asset.meta
+* Assets/Art/Tiles/House.asset
+* Assets/Art/Tiles/House.asset.meta
+* Assets/Art/Tiles/LotusFlower.asset
+* Assets/Art/Tiles/LotusFlower.asset.meta
+* Assets/Art/Tiles/MetalCube.asset
+* Assets/Art/Tiles/MetalCube.asset.meta
+* Assets/Art/Tiles/Mushrooms.asset
+* Assets/Art/Tiles/Mushrooms.asset.meta
+* Assets/Art/Tiles/TelegraphPost.asset
+* Assets/Art/Tiles/TelegraphPost.asset.meta
+* Assets/Art/Tiles/TreeBig1.asset
+* Assets/Art/Tiles/TreeBig1.asset.meta
+* Assets/Art/Tiles/TreeBig2.asset
+* Assets/Art/Tiles/TreeBig2.asset.meta
+* Assets/Art/Tiles/TreeBig3.asset
+* Assets/Art/Tiles/TreeBig3.asset.meta
+* Assets/Art/Tiles/TreeLittle.asset
+* Assets/Art/Tiles/TreeLittle.asset.meta
+* Assets/Audio.meta
+* "Assets/Audio/2D MUSIC LOOP.wav"
+* "Assets/Audio/2D MUSIC LOOP.wav.meta"
+* Assets/Audio/Collectable.wav
+* Assets/Audio/Collectable.wav.meta
+* Assets/Audio/Footsteps2a.wav
+* Assets/Audio/Footsteps2a.wav.meta
+* "Assets/Audio/Hit for enemy 1.wav"
+* "Assets/Audio/Hit for enemy 1.wav.meta"
+* "Assets/Audio/Hit for enemy 2.wav"
+* "Assets/Audio/Hit for enemy 2.wav.meta"
+* "Assets/Audio/Player Hit.wav"
+* "Assets/Audio/Player Hit.wav.meta"
+* "Assets/Audio/Quest Complete.wav"
+* "Assets/Audio/Quest Complete.wav.meta"
+* "Assets/Audio/Robot Fixed.wav"
+* "Assets/Audio/Robot Fixed.wav.meta"
+* "Assets/Audio/Robot Walking_Broken.wav"
+* "Assets/Audio/Robot Walking_Broken.wav.meta"
+* "Assets/Audio/Throw Cog.wav"
+* "Assets/Audio/Throw Cog.wav.meta"
+* "Assets/Input System.meta"
+* "Assets/Input System/1.0.0.meta"
+* "Assets/Input System/1.0.0/Custom Binding Composite.meta"
+* "Assets/Input System/1.0.0/Custom Binding Composite/.sample.json"
+* "Assets/Input System/1.0.0/Custom Binding Composite/CustomComposite.cs"
+* "Assets/Input System/1.0.0/Custom Binding Composite/CustomComposite.cs.meta"
+* "Assets/Input System/1.0.0/Custom Binding Composite/README.md"
+* "Assets/Input System/1.0.0/Custom Binding Composite/README.md.meta"
+* "Assets/Input System/1.0.0/Custom Device Usages.meta"
+* "Assets/Input System/1.0.0/Custom Device Usages/.sample.json"
+* "Assets/Input System/1.0.0/Custom Device Usages/.sample.json.meta"
+* "Assets/Input System/1.0.0/Custom Device Usages/CustomDeviceUsages.cs"
+* "Assets/Input System/1.0.0/Custom Device Usages/CustomDeviceUsages.cs.meta"
+* "Assets/Input System/1.0.0/Custom Device Usages/README.md"
+* "Assets/Input System/1.0.0/Custom Device Usages/README.md.meta"
+* "Assets/Input System/1.0.0/Custom Device Usages/TwoPlayerControls.inputactions"
+* "Assets/Input System/1.0.0/Custom Device Usages/TwoPlayerControls.inputactions.meta"
+* "Assets/Input System/1.0.0/Custom Device.meta"
+* "Assets/Input System/1.0.0/Custom Device/.sample.json"
+* "Assets/Input System/1.0.0/Custom Device/CustomDevice.cs"
+* "Assets/Input System/1.0.0/Custom Device/CustomDevice.cs.meta"
+* "Assets/Input System/1.0.0/Custom Device/README.md"
+* "Assets/Input System/1.0.0/Custom Device/README.md.meta"
+* "Assets/Input System/1.0.0/Gamepad Mouse Cursor.meta"
+* "Assets/Input System/1.0.0/Gamepad Mouse Cursor/.sample.json"
+* "Assets/Input System/1.0.0/Gamepad Mouse Cursor/GamepadMouseCursorSample.unity"
+* "Assets/Input System/1.0.0/Gamepad Mouse Cursor/GamepadMouseCursorSample.unity.meta"
+* "Assets/Input System/1.0.0/Gamepad Mouse Cursor/GamepadMouseCursorUIActions.inputactions"
+* "Assets/Input System/1.0.0/Gamepad Mouse Cursor/GamepadMouseCursorUIActions.inputactions.meta"
+* "Assets/Input System/1.0.0/Gamepad Mouse Cursor/README.md"
+* "Assets/Input System/1.0.0/Gamepad Mouse Cursor/README.md.meta"
+* "Assets/Input System/1.0.0/Gamepad Mouse Cursor/Unity.InputSystem.VirtualMouseInput.asmdef"
+* "Assets/Input System/1.0.0/Gamepad Mouse Cursor/Unity.InputSystem.VirtualMouseInput.asmdef.meta"
+* "Assets/Input System/1.0.0/Gamepad Mouse Cursor/VirtualMouseInput.cs"
+* "Assets/Input System/1.0.0/Gamepad Mouse Cursor/VirtualMouseInput.cs.meta"
+* "Assets/Input System/1.0.0/Gamepad Mouse Cursor/VirtualMouseInput.png"
+* "Assets/Input System/1.0.0/Gamepad Mouse Cursor/VirtualMouseInput.png.meta"
+* "Assets/Input System/1.0.0/Gamepad Mouse Cursor/crosshair.png"
+* "Assets/Input System/1.0.0/Gamepad Mouse Cursor/crosshair.png.meta"
+* "Assets/Input System/1.0.0/In-Game Hints.meta"
+* "Assets/Input System/1.0.0/In-Game Hints/.sample.json"
+* "Assets/Input System/1.0.0/In-Game Hints/InGameHintsActions.cs"
+* "Assets/Input System/1.0.0/In-Game Hints/InGameHintsActions.cs.meta"
+* "Assets/Input System/1.0.0/In-Game Hints/InGameHintsActions.inputactions"
+* "Assets/Input System/1.0.0/In-Game Hints/InGameHintsActions.inputactions.meta"
+* "Assets/Input System/1.0.0/In-Game Hints/InGameHintsExample.cs"
+* "Assets/Input System/1.0.0/In-Game Hints/InGameHintsExample.cs.meta"
+* "Assets/Input System/1.0.0/In-Game Hints/InGameHintsSampleScene.unity"
+* "Assets/Input System/1.0.0/In-Game Hints/InGameHintsSampleScene.unity.meta"
+* "Assets/Input System/1.0.0/In-Game Hints/Unity.InputSystem.InGameHints.asmdef"
+* "Assets/Input System/1.0.0/In-Game Hints/Unity.InputSystem.InGameHints.asmdef.meta"
+* "Assets/Input System/1.0.0/Input Recorder.meta"
+* "Assets/Input System/1.0.0/Input Recorder/.sample.json"
+* "Assets/Input System/1.0.0/Input Recorder/InputRecorder.cs"
+* "Assets/Input System/1.0.0/Input Recorder/InputRecorder.cs.meta"
+* "Assets/Input System/1.0.0/Input Recorder/InputRecorderInspector.cs"
+* "Assets/Input System/1.0.0/Input Recorder/InputRecorderInspector.cs.meta"
+* "Assets/Input System/1.0.0/Input Recorder/InputRecorderSample.unity"
+* "Assets/Input System/1.0.0/Input Recorder/InputRecorderSample.unity.meta"
+* "Assets/Input System/1.0.0/Input Recorder/README.md"
+* "Assets/Input System/1.0.0/Input Recorder/README.md.meta"
+* "Assets/Input System/1.0.0/Input Recorder/Unity.InputSystem.Recorder.asmdef"
+* "Assets/Input System/1.0.0/Input Recorder/Unity.InputSystem.Recorder.asmdef.meta"
+* "Assets/Input System/1.0.0/InputDeviceTester.meta"
+* "Assets/Input System/1.0.0/InputDeviceTester/.sample.json"
+* "Assets/Input System/1.0.0/InputDeviceTester/.sample.json.meta"
+* "Assets/Input System/1.0.0/InputDeviceTester/InputDeviceTester.asset"
+* "Assets/Input System/1.0.0/InputDeviceTester/InputDeviceTester.asset.meta"
+* "Assets/Input System/1.0.0/On-Screen Controls.meta"
+* "Assets/Input System/1.0.0/On-Screen Controls/.sample.json"
+* "Assets/Input System/1.0.0/On-Screen Controls/Button.prefab"
+* "Assets/Input System/1.0.0/On-Screen Controls/Button.prefab.meta"
+* "Assets/Input System/1.0.0/On-Screen Controls/OnScreenControlsSample.unity"
+* "Assets/Input System/1.0.0/On-Screen Controls/OnScreenControlsSample.unity.meta"
+* "Assets/Input System/1.0.0/On-Screen Controls/Stick.prefab"
+* "Assets/Input System/1.0.0/On-Screen Controls/Stick.prefab.meta"
+* "Assets/Input System/1.0.0/Rebinding UI.meta"
+* "Assets/Input System/1.0.0/Rebinding UI/.sample.json"
+* "Assets/Input System/1.0.0/Rebinding UI/GamepadIconsExample.cs"
+* "Assets/Input System/1.0.0/Rebinding UI/GamepadIconsExample.cs.meta"
+* "Assets/Input System/1.0.0/Rebinding UI/Icons.meta"
+* "Assets/Input System/1.0.0/Rebinding UI/Icons/PS4_Circle.png"
+* "Assets/Input System/1.0.0/Rebinding UI/Icons/PS4_Circle.png.meta"
+* "Assets/Input System/1.0.0/Rebinding UI/Icons/PS4_Cross.png"
+* "Assets/Input System/1.0.0/Rebinding UI/Icons/PS4_Cross.png.meta"
+* "Assets/Input System/1.0.0/Rebinding UI/Icons/PS4_Dpad.png"
+* "Assets/Input System/1.0.0/Rebinding UI/Icons/PS4_Dpad.png.meta"
+* "Assets/Input System/1.0.0/Rebinding UI/Icons/PS4_Dpad_Down.png"
+* "Assets/Input System/1.0.0/Rebinding UI/Icons/PS4_Dpad_Down.png.meta"
+* "Assets/Input System/1.0.0/Rebinding UI/Icons/PS4_Dpad_Left.png"
+* "Assets/Input System/1.0.0/Rebinding UI/Icons/PS4_Dpad_Left.png.meta"
+* "Assets/Input System/1.0.0/Rebinding UI/Icons/PS4_Dpad_Right.png"
+* "Assets/Input System/1.0.0/Rebinding UI/Icons/PS4_Dpad_Right.png.meta"
+* "Assets/Input System/1.0.0/Rebinding UI/Icons/PS4_Dpad_Up.png"
+* "Assets/Input System/1.0.0/Rebinding UI/Icons/PS4_Dpad_Up.png.meta"
+* "Assets/Input System/1.0.0/Rebinding UI/Icons/PS4_L1.png"
+* "Assets/Input System/1.0.0/Rebinding UI/Icons/PS4_L1.png.meta"
+* "Assets/Input System/1.0.0/Rebinding UI/Icons/PS4_L2.png"
+* "Assets/Input System/1.0.0/Rebinding UI/Icons/PS4_L2.png.meta"
+* "Assets/Input System/1.0.0/Rebinding UI/Icons/PS4_Left_Stick.png"
+* "Assets/Input System/1.0.0/Rebinding UI/Icons/PS4_Left_Stick.png.meta"
+* "Assets/Input System/1.0.0/Rebinding UI/Icons/PS4_Options.png"
+* "Assets/Input System/1.0.0/Rebinding UI/Icons/PS4_Options.png.meta"
+* "Assets/Input System/1.0.0/Rebinding UI/Icons/PS4_R1.png"
+* "Assets/Input System/1.0.0/Rebinding UI/Icons/PS4_R1.png.meta"
+* "Assets/Input System/1.0.0/Rebinding UI/Icons/PS4_R2.png"
+* "Assets/Input System/1.0.0/Rebinding UI/Icons/PS4_R2.png.meta"
+* "Assets/Input System/1.0.0/Rebinding UI/Icons/PS4_Right_Stick.png"
+* "Assets/Input System/1.0.0/Rebinding UI/Icons/PS4_Right_Stick.png.meta"
+* "Assets/Input System/1.0.0/Rebinding UI/Icons/PS4_Share.png"
+* "Assets/Input System/1.0.0/Rebinding UI/Icons/PS4_Share.png.meta"
+* "Assets/Input System/1.0.0/Rebinding UI/Icons/PS4_Square.png"
+* "Assets/Input System/1.0.0/Rebinding UI/Icons/PS4_Square.png.meta"
+* "Assets/Input System/1.0.0/Rebinding UI/Icons/PS4_Triangle.png"
+* "Assets/Input System/1.0.0/Rebinding UI/Icons/PS4_Triangle.png.meta"
+* "Assets/Input System/1.0.0/Rebinding UI/Icons/XboxOne_A.png"
+* "Assets/Input System/1.0.0/Rebinding UI/Icons/XboxOne_A.png.meta"
+* "Assets/Input System/1.0.0/Rebinding UI/Icons/XboxOne_B.png"
+* "Assets/Input System/1.0.0/Rebinding UI/Icons/XboxOne_B.png.meta"
+* "Assets/Input System/1.0.0/Rebinding UI/Icons/XboxOne_Dpad.png"
+* "Assets/Input System/1.0.0/Rebinding UI/Icons/XboxOne_Dpad.png.meta"
+* "Assets/Input System/1.0.0/Rebinding UI/Icons/XboxOne_Dpad_Down.png"
+* "Assets/Input System/1.0.0/Rebinding UI/Icons/XboxOne_Dpad_Down.png.meta"
+* "Assets/Input System/1.0.0/Rebinding UI/Icons/XboxOne_Dpad_Left.png"
+* "Assets/Input System/1.0.0/Rebinding UI/Icons/XboxOne_Dpad_Left.png.meta"
+* "Assets/Input System/1.0.0/Rebinding UI/Icons/XboxOne_Dpad_Right.png"
+* "Assets/Input System/1.0.0/Rebinding UI/Icons/XboxOne_Dpad_Right.png.meta"
+* "Assets/Input System/1.0.0/Rebinding UI/Icons/XboxOne_Dpad_Up.png"
+* "Assets/Input System/1.0.0/Rebinding UI/Icons/XboxOne_Dpad_Up.png.meta"
+* "Assets/Input System/1.0.0/Rebinding UI/Icons/XboxOne_LB.png"
+* "Assets/Input System/1.0.0/Rebinding UI/Icons/XboxOne_LB.png.meta"
+* "Assets/Input System/1.0.0/Rebinding UI/Icons/XboxOne_LT.png"
+* "Assets/Input System/1.0.0/Rebinding UI/Icons/XboxOne_LT.png.meta"
+* "Assets/Input System/1.0.0/Rebinding UI/Icons/XboxOne_Left_Stick.png"
+* "Assets/Input System/1.0.0/Rebinding UI/Icons/XboxOne_Left_Stick.png.meta"
+* "Assets/Input System/1.0.0/Rebinding UI/Icons/XboxOne_Menu.png"
+* "Assets/Input System/1.0.0/Rebinding UI/Icons/XboxOne_Menu.png.meta"
+* "Assets/Input System/1.0.0/Rebinding UI/Icons/XboxOne_RB.png"
+* "Assets/Input System/1.0.0/Rebinding UI/Icons/XboxOne_RB.png.meta"
+* "Assets/Input System/1.0.0/Rebinding UI/Icons/XboxOne_RT.png"
+* "Assets/Input System/1.0.0/Rebinding UI/Icons/XboxOne_RT.png.meta"
+* "Assets/Input System/1.0.0/Rebinding UI/Icons/XboxOne_Right_Stick.png"
+* "Assets/Input System/1.0.0/Rebinding UI/Icons/XboxOne_Right_Stick.png.meta"
+* "Assets/Input System/1.0.0/Rebinding UI/Icons/XboxOne_Windows.png"
+* "Assets/Input System/1.0.0/Rebinding UI/Icons/XboxOne_Windows.png.meta"
+* "Assets/Input System/1.0.0/Rebinding UI/Icons/XboxOne_X.png"
+* "Assets/Input System/1.0.0/Rebinding UI/Icons/XboxOne_X.png.meta"
+* "Assets/Input System/1.0.0/Rebinding UI/Icons/XboxOne_Y.png"
+* "Assets/Input System/1.0.0/Rebinding UI/Icons/XboxOne_Y.png.meta"
+* "Assets/Input System/1.0.0/Rebinding UI/README.md"
+* "Assets/Input System/1.0.0/Rebinding UI/README.md.meta"
+* "Assets/Input System/1.0.0/Rebinding UI/RebindActionUI.cs"
+* "Assets/Input System/1.0.0/Rebinding UI/RebindActionUI.cs.meta"
+* "Assets/Input System/1.0.0/Rebinding UI/RebindActionUIEditor.cs"
+* "Assets/Input System/1.0.0/Rebinding UI/RebindActionUIEditor.cs.meta"
+* "Assets/Input System/1.0.0/Rebinding UI/RebindUIPrefab.prefab"
+* "Assets/Input System/1.0.0/Rebinding UI/RebindUIPrefab.prefab.meta"
+* "Assets/Input System/1.0.0/Rebinding UI/RebindUISampleActions.inputactions"
+* "Assets/Input System/1.0.0/Rebinding UI/RebindUISampleActions.inputactions.meta"
+* "Assets/Input System/1.0.0/Rebinding UI/RebindingUISampleScene.unity"
+* "Assets/Input System/1.0.0/Rebinding UI/RebindingUISampleScene.unity.meta"
+* "Assets/Input System/1.0.0/Rebinding UI/Unity.InputSystem.RebindingUI.asmdef"
+* "Assets/Input System/1.0.0/Rebinding UI/Unity.InputSystem.RebindingUI.asmdef.meta"
+* "Assets/Input System/1.0.0/Simple Demo.meta"
+* "Assets/Input System/1.0.0/Simple Demo/.sample.json"
+* "Assets/Input System/1.0.0/Simple Demo/.sample.json.meta"
+* "Assets/Input System/1.0.0/Simple Demo/Environment.prefab"
+* "Assets/Input System/1.0.0/Simple Demo/Environment.prefab.meta"
+* "Assets/Input System/1.0.0/Simple Demo/README.md"
+* "Assets/Input System/1.0.0/Simple Demo/README.md.meta"
+* "Assets/Input System/1.0.0/Simple Demo/SimpleController_UsingActionAsset.cs"
+* "Assets/Input System/1.0.0/Simple Demo/SimpleController_UsingActionAsset.cs.meta"
+* "Assets/Input System/1.0.0/Simple Demo/SimpleController_UsingActions.cs"
+* "Assets/Input System/1.0.0/Simple Demo/SimpleController_UsingActions.cs.meta"
+* "Assets/Input System/1.0.0/Simple Demo/SimpleController_UsingPlayerInput.cs"
+* "Assets/Input System/1.0.0/Simple Demo/SimpleController_UsingPlayerInput.cs.meta"
+* "Assets/Input System/1.0.0/Simple Demo/SimpleController_UsingState.cs"
+* "Assets/Input System/1.0.0/Simple Demo/SimpleController_UsingState.cs.meta"
+* "Assets/Input System/1.0.0/Simple Demo/SimpleControls.cs"
+* "Assets/Input System/1.0.0/Simple Demo/SimpleControls.cs.meta"
+* "Assets/Input System/1.0.0/Simple Demo/SimpleControls.inputactions"
+* "Assets/Input System/1.0.0/Simple Demo/SimpleControls.inputactions.meta"
+* "Assets/Input System/1.0.0/Simple Demo/SimpleDemo_UsingActionAsset.unity"
+* "Assets/Input System/1.0.0/Simple Demo/SimpleDemo_UsingActionAsset.unity.meta"
+* "Assets/Input System/1.0.0/Simple Demo/SimpleDemo_UsingActions.unity"
+* "Assets/Input System/1.0.0/Simple Demo/SimpleDemo_UsingActions.unity.meta"
+* "Assets/Input System/1.0.0/Simple Demo/SimpleDemo_UsingPlayerInput.unity"
+* "Assets/Input System/1.0.0/Simple Demo/SimpleDemo_UsingPlayerInput.unity.meta"
+* "Assets/Input System/1.0.0/Simple Demo/SimpleDemo_UsingState.unity"
+* "Assets/Input System/1.0.0/Simple Demo/SimpleDemo_UsingState.unity.meta"
+* "Assets/Input System/1.0.0/Simple Demo/SimpleProjectile.prefab"
+* "Assets/Input System/1.0.0/Simple Demo/SimpleProjectile.prefab.meta"
+* "Assets/Input System/1.0.0/Simple Multiplayer.meta"
+* "Assets/Input System/1.0.0/Simple Multiplayer/.sample.json"
+* "Assets/Input System/1.0.0/Simple Multiplayer/Player.prefab"
+* "Assets/Input System/1.0.0/Simple Multiplayer/Player.prefab.meta"
+* "Assets/Input System/1.0.0/Simple Multiplayer/README.md"
+* "Assets/Input System/1.0.0/Simple Multiplayer/README.md.meta"
+* "Assets/Input System/1.0.0/Simple Multiplayer/SimpleMultiplayerControls.inputactions"
+* "Assets/Input System/1.0.0/Simple Multiplayer/SimpleMultiplayerControls.inputactions.meta"
+* "Assets/Input System/1.0.0/Simple Multiplayer/SimpleMultiplayerDemo.unity"
+* "Assets/Input System/1.0.0/Simple Multiplayer/SimpleMultiplayerDemo.unity.meta"
+* "Assets/Input System/1.0.0/Simple Multiplayer/SimpleMultiplayerPlayer.cs"
+* "Assets/Input System/1.0.0/Simple Multiplayer/SimpleMultiplayerPlayer.cs.meta"
+* "Assets/Input System/1.0.0/Tanks Demo.meta"
+* "Assets/Input System/1.0.0/Tanks Demo/.sample.json"
+* "Assets/Input System/1.0.0/Tanks Demo/TanksDemo.asset"
+* "Assets/Input System/1.0.0/Tanks Demo/TanksDemo.asset.meta"
+* "Assets/Input System/1.0.0/Touch Samples.meta"
+* "Assets/Input System/1.0.0/Touch Samples/.sample.json"
+* "Assets/Input System/1.0.0/Touch Samples/TouchSamples.asset"
+* "Assets/Input System/1.0.0/Touch Samples/TouchSamples.asset.meta"
+* "Assets/Input System/1.0.0/Visualizers.meta"
+* "Assets/Input System/1.0.0/Visualizers/.sample.json"
+* "Assets/Input System/1.0.0/Visualizers/GamepadVis.prefab"
+* "Assets/Input System/1.0.0/Visualizers/GamepadVis.prefab.meta"
+* "Assets/Input System/1.0.0/Visualizers/GamepadVisualizer.unity"
+* "Assets/Input System/1.0.0/Visualizers/GamepadVisualizer.unity.meta"
+* "Assets/Input System/1.0.0/Visualizers/InputActionVisualizer.cs"
+* "Assets/Input System/1.0.0/Visualizers/InputActionVisualizer.cs.meta"
+* "Assets/Input System/1.0.0/Visualizers/InputControlVisualizer.cs"
+* "Assets/Input System/1.0.0/Visualizers/InputControlVisualizer.cs.meta"
+* "Assets/Input System/1.0.0/Visualizers/InputVisualizer.cs"
+* "Assets/Input System/1.0.0/Visualizers/InputVisualizer.cs.meta"
+* "Assets/Input System/1.0.0/Visualizers/MouseVis.prefab"
+* "Assets/Input System/1.0.0/Visualizers/MouseVis.prefab.meta"
+* "Assets/Input System/1.0.0/Visualizers/MouseVisualizer.unity"
+* "Assets/Input System/1.0.0/Visualizers/MouseVisualizer.unity.meta"
+* "Assets/Input System/1.0.0/Visualizers/PenVis.prefab"
+* "Assets/Input System/1.0.0/Visualizers/PenVis.prefab.meta"
+* "Assets/Input System/1.0.0/Visualizers/PenVisualizer.unity"
+* "Assets/Input System/1.0.0/Visualizers/PenVisualizer.unity.meta"
+* "Assets/Input System/1.0.0/Visualizers/SimpleControls.inputactions"
+* "Assets/Input System/1.0.0/Visualizers/SimpleControls.inputactions.meta"
+* "Assets/Input System/1.0.0/Visualizers/SimpleControlsVis.prefab"
+* "Assets/Input System/1.0.0/Visualizers/SimpleControlsVis.prefab.meta"
+* "Assets/Input System/1.0.0/Visualizers/SimpleControlsVisualizer.unity"
+* "Assets/Input System/1.0.0/Visualizers/SimpleControlsVisualizer.unity.meta"
+* "Assets/Input System/1.0.0/Visualizers/Unity.InputSystem.Visualizers.asmdef"
+* "Assets/Input System/1.0.0/Visualizers/Unity.InputSystem.Visualizers.asmdef.meta"
+* "Assets/Input System/1.0.0/Visualizers/VisualizationHelpers.cs"
+* "Assets/Input System/1.0.0/Visualizers/VisualizationHelpers.cs.meta"
+* Assets/InputManager.asset
+* Assets/InputManager.asset.meta
+* Assets/InputSystem.inputsettings.asset
+* Assets/InputSystem.inputsettings.asset.meta
+* Assets/MainScene.unity
+* Assets/MainScene.unity.meta
+* Assets/MainScene2.unity
+* Assets/MainScene2.unity.meta
+* Assets/Prefabs.meta
+* Assets/Prefabs/Ammo.prefab
+* Assets/Prefabs/Ammo.prefab.meta
+* "Assets/Prefabs/CM vcam1.prefab"
+* "Assets/Prefabs/CM vcam1.prefab.meta"
+* Assets/Prefabs/CogBullet.prefab
+* Assets/Prefabs/CogBullet.prefab.meta
+* Assets/Prefabs/CogPickUp.prefab
+* Assets/Prefabs/CogPickUp.prefab.meta
+* Assets/Prefabs/CollectibleHealth.prefab
+* Assets/Prefabs/CollectibleHealth.prefab.meta
+* Assets/Prefabs/CountText.prefab
+* Assets/Prefabs/CountText.prefab.meta
+* Assets/Prefabs/Damageable.prefab
+* Assets/Prefabs/Damageable.prefab.meta
+* "Assets/Prefabs/Fast Robot.prefab"
+* "Assets/Prefabs/Fast Robot.prefab.meta"
+* Assets/Prefabs/Hit.prefab
+* Assets/Prefabs/Hit.prefab.meta
+* Assets/Prefabs/Jambi.prefab
+* Assets/Prefabs/Jambi.prefab.meta
+* Assets/Prefabs/MetalCube.prefab
+* Assets/Prefabs/MetalCube.prefab.meta
+* "Assets/Prefabs/New Spark Effect.prefab"
+* "Assets/Prefabs/New Spark Effect.prefab.meta"
+* "Assets/Prefabs/Particle System.prefab"
+* "Assets/Prefabs/Particle System.prefab.meta"
+* Assets/Prefabs/PickupEffect.prefab
+* Assets/Prefabs/PickupEffect.prefab.meta
+* Assets/Prefabs/Projectile.prefab
+* Assets/Prefabs/Projectile.prefab.meta
+* Assets/Prefabs/ResourceCube.prefab
+* Assets/Prefabs/ResourceCube.prefab.meta
+* Assets/Prefabs/Ruby.prefab
+* Assets/Prefabs/Ruby.prefab.meta
+* "Assets/Prefabs/Slow Robot.prefab"
+* "Assets/Prefabs/Slow Robot.prefab.meta"
+* "Assets/Prefabs/Smoke Effect.prefab"
+* "Assets/Prefabs/Smoke Effect.prefab.meta"
+* "Assets/Prefabs/Spark Effect.prefab"
+* "Assets/Prefabs/Spark Effect.prefab.meta"
+* Assets/Prefabs/Twinkle.prefab
+* Assets/Prefabs/Twinkle.prefab.meta
+* "Assets/Ruby Final.unity"
+* "Assets/Ruby Final.unity.meta"
+* Assets/Samples.meta
+* Assets/Scripts.meta
+* Assets/Scripts/CogCollectible.cs
+* Assets/Scripts/CogCollectible.cs.meta
+* Assets/Scripts/DamageZone.cs
+* Assets/Scripts/DamageZone.cs.meta
+* Assets/Scripts/EnemyController.cs
+* Assets/Scripts/EnemyController.cs.meta
+* Assets/Scripts/FastEnemyController.cs
+* Assets/Scripts/FastEnemyController.cs.meta
+* Assets/Scripts/HealthCollectible.cs
+* Assets/Scripts/HealthCollectible.cs.meta
+* Assets/Scripts/NonPlayerCharacter.cs
+* Assets/Scripts/NonPlayerCharacter.cs.meta
+* Assets/Scripts/Projectile.cs
+* Assets/Scripts/Projectile.cs.meta
+* Assets/Scripts/ResourceCube.cs
+* Assets/Scripts/ResourceCube.cs.meta
+* Assets/Scripts/RobotsFixed.cs
+* Assets/Scripts/RobotsFixed.cs.meta
+* Assets/Scripts/RubyController.cs
+* Assets/Scripts/RubyController.cs.meta
+* Assets/Scripts/UIHealthBar.cs
+* Assets/Scripts/UIHealthBar.cs.meta
+* "Assets/TextMesh Pro.meta"
+* "Assets/TextMesh Pro/Documentation.meta"
+* "Assets/TextMesh Pro/Documentation/TextMesh Pro User Guide 2016.pdf"
+* "Assets/TextMesh Pro/Documentation/TextMesh Pro User Guide 2016.pdf.meta"
+* "Assets/TextMesh Pro/Fonts.meta"
+* "Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt"
+* "Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt.meta"
+* "Assets/TextMesh Pro/Fonts/LiberationSans.ttf"
+* "Assets/TextMesh Pro/Fonts/LiberationSans.ttf.meta"
+* "Assets/TextMesh Pro/Resources.meta"
+* "Assets/TextMesh Pro/Resources/Fonts & Materials.meta"
+* "Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat"
+* "Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat.meta"
+* "Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset"
+* "Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset.meta"
+* "Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat"
+* "Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat.meta"
+* "Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset"
+* "Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset.meta"
+* "Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt"
+* "Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt.meta"
+* "Assets/TextMesh Pro/Resources/LineBreaking Leading Characters.txt"
+* "Assets/TextMesh Pro/Resources/LineBreaking Leading Characters.txt.meta"
+* "Assets/TextMesh Pro/Resources/Shaders.meta"
+* "Assets/TextMesh Pro/Resources/Shaders/TMP_Bitmap-Custom-Atlas.shader"
+* "Assets/TextMesh Pro/Resources/Shaders/TMP_Bitmap-Custom-Atlas.shader.meta"
+* "Assets/TextMesh Pro/Resources/Shaders/TMP_Bitmap-Mobile.shader"
+* "Assets/TextMesh Pro/Resources/Shaders/TMP_Bitmap-Mobile.shader.meta"
+* "Assets/TextMesh Pro/Resources/Shaders/TMP_Bitmap.shader"
+* "Assets/TextMesh Pro/Resources/Shaders/TMP_Bitmap.shader.meta"
+* "Assets/TextMesh Pro/Resources/Shaders/TMP_SDF Overlay.shader"
+* "Assets/TextMesh Pro/Resources/Shaders/TMP_SDF Overlay.shader.meta"
+* "Assets/TextMesh Pro/Resources/Shaders/TMP_SDF-Mobile Masking.shader"
+* "Assets/TextMesh Pro/Resources/Shaders/TMP_SDF-Mobile Masking.shader.meta"
+* "Assets/TextMesh Pro/Resources/Shaders/TMP_SDF-Mobile Overlay.shader"
+* "Assets/TextMesh Pro/Resources/Shaders/TMP_SDF-Mobile Overlay.shader.meta"
+* "Assets/TextMesh Pro/Resources/Shaders/TMP_SDF-Mobile.shader"
+* "Assets/TextMesh Pro/Resources/Shaders/TMP_SDF-Mobile.shader.meta"
+* "Assets/TextMesh Pro/Resources/Shaders/TMP_SDF-Surface-Mobile.shader"
+* "Assets/TextMesh Pro/Resources/Shaders/TMP_SDF-Surface-Mobile.shader.meta"
+* "Assets/TextMesh Pro/Resources/Shaders/TMP_SDF-Surface.shader"
+* "Assets/TextMesh Pro/Resources/Shaders/TMP_SDF-Surface.shader.meta"
+* "Assets/TextMesh Pro/Resources/Shaders/TMP_SDF.shader"
+* "Assets/TextMesh Pro/Resources/Shaders/TMP_SDF.shader.meta"
+* "Assets/TextMesh Pro/Resources/Shaders/TMP_Sprite.shader"
+* "Assets/TextMesh Pro/Resources/Shaders/TMP_Sprite.shader.meta"
+* "Assets/TextMesh Pro/Resources/Shaders/TMPro.cginc"
+* "Assets/TextMesh Pro/Resources/Shaders/TMPro.cginc.meta"
+* "Assets/TextMesh Pro/Resources/Shaders/TMPro_Properties.cginc"
+* "Assets/TextMesh Pro/Resources/Shaders/TMPro_Properties.cginc.meta"
+* "Assets/TextMesh Pro/Resources/Shaders/TMPro_Surface.cginc"
+* "Assets/TextMesh Pro/Resources/Shaders/TMPro_Surface.cginc.meta"
+* "Assets/TextMesh Pro/Resources/Sprite Assets.meta"
+* "Assets/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset"
+* "Assets/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset.meta"
+* "Assets/TextMesh Pro/Resources/Style Sheets.meta"
+* "Assets/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset"
+* "Assets/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset.meta"
+* "Assets/TextMesh Pro/Resources/TMP Settings.asset"
+* "Assets/TextMesh Pro/Resources/TMP Settings.asset.meta"
+* "Assets/TextMesh Pro/Sprites.meta"
+* "Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt"
+* "Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt.meta"
+* "Assets/TextMesh Pro/Sprites/EmojiOne.json"
+* "Assets/TextMesh Pro/Sprites/EmojiOne.json.meta"
+* "Assets/TextMesh Pro/Sprites/EmojiOne.png"
+* "Assets/TextMesh Pro/Sprites/EmojiOne.png.meta"
+* Packages/manifest.json
+* Packages/packages-lock.json
+* ProjectSettings/AudioManager.asset
+* ProjectSettings/ClusterInputManager.asset
+* ProjectSettings/DynamicsManager.asset
+* ProjectSettings/EditorBuildSettings.asset
+* ProjectSettings/EditorSettings.asset
+* ProjectSettings/GraphicsSettings.asset
+* ProjectSettings/InputManager.asset
+* ProjectSettings/NavMeshAreas.asset
+* ProjectSettings/NetworkManager.asset
+* ProjectSettings/Physics2DSettings.asset
+* ProjectSettings/PresetManager.asset
+* ProjectSettings/ProjectSettings.asset
+* ProjectSettings/ProjectVersion.txt
+* ProjectSettings/QualitySettings.asset
+* ProjectSettings/TagManager.asset
+* ProjectSettings/TimeManager.asset
+* ProjectSettings/UnityConnectSettings.asset
+* ProjectSettings/VFXManager.asset
+* ProjectSettings/VersionControlSettings.asset
+* ProjectSettings/VersionControlSettings.asset.meta
+* ProjectSettings/XRSettings.asset
+
+
+Deleted files:
+
+
+Renamed files:
