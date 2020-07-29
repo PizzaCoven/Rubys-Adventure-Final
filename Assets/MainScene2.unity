@@ -14331,6 +14331,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   displayTime: 4
   dialogBox: {fileID: 1995539983}
+  dialogBox2: {fileID: 0}
 --- !u!1001 &1068488276
 PrefabInstance:
   m_ObjectHideFlags: 0
