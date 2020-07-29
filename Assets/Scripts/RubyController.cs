@@ -37,8 +37,8 @@ public class RubyController : MonoBehaviour
     public int maxAmmo = 6; 
     //public int minAmmo = 0;
     public Text ammoText;
-    public int robotsFixed = 0;
-    bool broken = true;
+    //public int robotsFixed = 0;
+   
     
   
     
@@ -49,7 +49,7 @@ public class RubyController : MonoBehaviour
         animator = GetComponent<Animator>();
         currentHealth = maxHealth;
         currentAmmo = maxAmmo;
-    
+        RobotsFixed.instance.FixRobot();
         
         audioSource = GetComponent<AudioSource>();
     }
@@ -60,11 +60,7 @@ public class RubyController : MonoBehaviour
          if (Input.GetKey("escape"))
            { Application.Quit();}
     
-        if(robotsFixed >= 1)
-        {
-            broken = false;
-
-        }
+       
 
     IEnumerator Reset(float Count)
     {
@@ -135,9 +131,9 @@ public class RubyController : MonoBehaviour
                     NonPlayerCharacter character = hit.collider.GetComponent<NonPlayerCharacter>();
                 if (character != null)
                     {
-                        RobotsFixed gameObject = GetComponent<RobotsFixed>();
+                        //RobotsFixed gameObject = GetComponent<RobotsFixed>();
                         //RobotsFixed.instance.FixRobot();
-                        if(broken = false)
+                        if(robotsFixed == 1)
                         {
                         character.DisplayDialog2();
                         }
@@ -187,7 +183,7 @@ public class RubyController : MonoBehaviour
     }
     void Restart()
         {
-            SceneManager.LoadScene("MainScene");
+            SceneManager.LoadScene("RubyFinal");
         }
      public void ChangeHealth(int amount)
     {
