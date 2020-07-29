@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 106a4638a6496405cbe3d43719b271d5
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - smokeEffect: {fileID: 5931171914468028500, guid: 6e28d7de458504d589b58a7cb4df0890,
+      type: 3}
+  - cogCollision: {fileID: 774123242676602572, guid: 21ca51615fb724708ab58c6ee0d1fb64,
+      type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 885e2bace8d484a27825036c949439a8
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - collectedClip: {fileID: 8300000, guid: af5f8b64e3f58f24c87ff8f789b04f6c, type: 3}
+  - twinkleEffect: {fileID: 412327291059105354, guid: 3cf435f86e88841ab86de19824d88555,
+      type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
