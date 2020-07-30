@@ -97,7 +97,7 @@ public class RubyController : MonoBehaviour
         
         if(Input.GetKeyDown(KeyCode.N))
         {
-            SceneManager.LoadScene("FinalScene2");
+            SceneManager.LoadScene("RubyFinal2");
         }
 
         if((Input.GetKeyDown(KeyCode.C) && currentAmmo > 0))
@@ -140,7 +140,7 @@ public class RubyController : MonoBehaviour
                     IEnumerator WaitForSec()
                     { 
                         yield return new WaitForSeconds(4);
-                        SceneManager.LoadScene("FinalScene2");
+                        SceneManager.LoadScene("RubyFinal2");
                         //Player.transform.position = new Vector4(-12.85f,3.85f,494.55f);
                     }
                 }

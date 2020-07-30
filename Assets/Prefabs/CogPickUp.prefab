@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 6928512769167410154}
   - component: {fileID: 179771598}
   - component: {fileID: 179771600}
+  - component: {fileID: 1917798670}
   m_Layer: 0
   m_Name: CogPickUp
   m_TagString: PickUp
@@ -124,3 +125,22 @@ MonoBehaviour:
   collectedClip: {fileID: 8300000, guid: af5f8b64e3f58f24c87ff8f789b04f6c, type: 3}
   twinkleEffect: {fileID: 412327291059105354, guid: 3cf435f86e88841ab86de19824d88555,
     type: 3}
+--- !u!95 &1917798670
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7830860940589030836}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 5a4ce1b860406ab4ba32ea55ba8715a9, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
