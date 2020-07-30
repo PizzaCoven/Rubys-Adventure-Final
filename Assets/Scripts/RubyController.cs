@@ -9,6 +9,7 @@ public class RubyController : MonoBehaviour
     public float speed = 3.0f;
     public int maxHealth = 5;
     public GameObject projectilePrefab;
+    public GameObject newProjectile;
     GameObject Player;
     public AudioClip throwSound;
     public AudioClip hitSound;
@@ -121,6 +122,13 @@ public class RubyController : MonoBehaviour
             currentAmmo -= 1;
         }
         ammoText.GetComponent<Text>().text = currentAmmo.ToString();
+
+        if((Input.GetKeyDown(KeyCode.D) && currentRedAmmo > 0))
+        {
+            Launch2();
+            currentRedAmmo -= 1;
+        }
+        ammoRedText.GetComponent<Text>().text = currentRedAmmo.ToString();
     
 
         if (Input.GetKeyDown(KeyCode.X))
@@ -189,16 +197,11 @@ public class RubyController : MonoBehaviour
                         if((RobotsFixed.instance.robotsFixed == 6 && currentCoin >=5 ))
                         {
                         character.DisplayDialog2();
-                        //StartCoroutine(WaitForSec());
-                       // }
-                    //IEnumerator WaitForSec()
-                    //{ 
-                       // yield return new WaitForSeconds(1);
-                       
+
                                 audioSource.Play();
                                 speed = 0;
                                 
-                                }
+                       }
                     }
                 }
             }
@@ -228,6 +231,11 @@ public class RubyController : MonoBehaviour
         currentAmmo += 3;
     
         }
+        public void ChangeRedAmmo(int amount)
+        {   
+        currentAmmo += 1;
+    
+        }
          public void ChangeCoin(int amount)
         {   
         currentCoin += 1;
@@ -243,15 +251,6 @@ public class RubyController : MonoBehaviour
         position.y = position.y + speed * vertical * Time.deltaTime;
 
         rigidbody2d.MovePosition(position);
-    //
-       //Debug.Log(RobotsFixed.instance.robotsFixed);
-                         //if((RobotsFixed.instance.robotsFixed >= 6 && currentCoin >=5))
-                             //   { //&& !audioSource.isPlaying
-                                //PlaySound(winSound);
-                                //audioSource.Play();
-                                //speed = 0;
-                                //winText.text = "You Win!";      
-                                //}
   
 
            }
@@ -301,6 +300,20 @@ public class RubyController : MonoBehaviour
         
         PlaySound(throwSound);
         }
+    }
+void Launch2()
+    {
+        if (currentRedAmmo > 0)
+        {GameObject projectileObject = Instantiate(newProjectile, rigidbody2d.position + Vector2.up * 0.5f, Quaternion.identity);
+
+        NewProjectile projectile = newProjectile.GetComponent<NewProjectile>();
+        projectile.Launch2(lookDirection, 300);
+
+        animator.SetTrigger("Launch2");
+        
+        PlaySound(throwSound);
+        }
+
 
     }
     public void PlaySound(AudioClip clip)

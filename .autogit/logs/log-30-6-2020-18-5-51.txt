@@ -1,0 +1,22 @@
+-------------------- Auto-Git Log --------------------
+		Thu Jul 30 2020 18:05:51 GMT-0400 (Eastern Daylight Time)
+------------------------------------------------------
+
+Modified files:
+* Assets/RubyFInal2.unity
+* Assets/RubyFinal.unity
+* Assets/Scripts/CogCollectible.cs
+* Assets/Scripts/RobotsFixed.cs
+* Assets/Scripts/RubyController.cs
+
+
+Created files:
+* .autogit/logs/log-30-6-2020-17-35-41.txt
+* Assets/Scripts/RedCogCollectible.cs
+* Assets/Scripts/RedCogCollectible.cs.meta
+
+
+Deleted files:
+
+
+Renamed files:

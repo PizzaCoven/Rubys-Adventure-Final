@@ -404,6 +404,11 @@ PrefabInstance:
       propertyPath: coinText
       value: 
       objectReference: {fileID: 935966095}
+    - target: {fileID: 2814498796947850509, guid: d24b1bef8bf6640579cb74801d3119ad,
+        type: 3}
+      propertyPath: ammoRedText
+      value: 
+      objectReference: {fileID: 2072276844}
     - target: {fileID: 2814498796947850736, guid: d24b1bef8bf6640579cb74801d3119ad,
         type: 3}
       propertyPath: m_Name

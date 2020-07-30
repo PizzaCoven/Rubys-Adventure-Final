@@ -32,18 +32,13 @@ public class Projectile : MonoBehaviour
             e.Fix();
         }
     
-     FastEnemyController b = other.collider.GetComponent<FastEnemyController>();
-        if (b != null)
-        {
-            b.Fix();
-        }
+     //FastEnemyController b = other.collider.GetComponent<FastEnemyController>();
+      //  if (b != null)
+      //  {
+       //     b.Fix();
+       // }
 
-    //ResourceCube rc = other.collider.GetComponent<ResourceCube>();
-       // if (rc != null)
-        //    {
-        //        rc.BlownUp();
-        //    }
-
+    
         Destroy(gameObject);
     
     }
