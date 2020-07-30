@@ -8,12 +8,12 @@ MonoImporter:
       type: 3}
   - throwSound: {fileID: 8300000, guid: b2edfd40873655249ba0e01a5cf705be, type: 3}
   - hitSound: {fileID: 8300000, guid: d58310c9864f7499e97abff8ef4448cd, type: 3}
-  - dieSound: {fileID: 8300000, guid: d49110d2425724cd9a9190107073fd07, type: 3}
-  - winSound: {fileID: 8300000, guid: e41fd518e49d44f35a3e592582ccef72, type: 3}
   - hitEffect: {fileID: 4460409188282054484, guid: 808fc41e87dac4abbad1759eb639c47b,
       type: 3}
   - findSound: {fileID: 8300000, guid: 3cbcf3391adea41ffae9ccdbc510faf0, type: 3}
   - ammoText: {fileID: 7822101478119537534, guid: f33eccd670e284d1aa7a66ebc4aba08d,
+      type: 3}
+  - coinText: {fileID: 405345506630629833, guid: 8e158fa912e5443c4a9c0b31015add7f,
       type: 3}
   executionOrder: 0
   icon: {instanceID: 0}

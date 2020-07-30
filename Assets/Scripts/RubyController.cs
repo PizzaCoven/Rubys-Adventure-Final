@@ -38,6 +38,9 @@ public class RubyController : MonoBehaviour
    
     public Text ammoText;
    //public Text winText;
+   public int currentCoin = 0;
+   public int maxCoin = 5;
+   public Text coinText;
     
    
     
@@ -51,10 +54,9 @@ public class RubyController : MonoBehaviour
         animator = GetComponent<Animator>();
         currentHealth = maxHealth;
         currentAmmo = maxAmmo;
-        //RobotsFixed.instance.FixRobot();
         
         audioSource = GetComponent<AudioSource>();
-       
+        coinText.GetComponent<Text>().text = currentCoin.ToString();
 
 
     }
@@ -177,6 +179,12 @@ public class RubyController : MonoBehaviour
         {   
         currentAmmo += 3;
     
+        }
+         public void ChangeCoin(int amount)
+        {   
+        currentCoin += 1;
+        GetComponent<Text>().text = "" + currentCoin.ToString() + "/5";
+       
         }
    
 

@@ -81,6 +81,7 @@ public class EnemyController : MonoBehaviour
         if (player != null)
         {
             player.ChangeHealth(-1);
+            player.ChangeCoin(-1);
         }
 
     }
@@ -96,6 +97,8 @@ public class EnemyController : MonoBehaviour
         smokeEffect.Stop();
         enemyAudio.Stop();
         enemyOneShot(fixAudioClip);
+        
+        
        
     }
       public void enemyOneShot(AudioClip clip)

@@ -1,0 +1,25 @@
+-------------------- Auto-Git Log --------------------
+		Thu Jul 30 2020 15:34:59 GMT-0400 (Eastern Daylight Time)
+------------------------------------------------------
+
+Modified files:
+
+
+Created files:
+* .autogit/logs/log-30-6-2020-15-4-46.txt
+* Assets/Art/Sprites/Coin.controller
+* Assets/Art/Sprites/Coin.controller.meta
+* Assets/Art/Sprites/CoinSpin.anim
+* Assets/Art/Sprites/CoinSpin.anim.meta
+* Assets/Art/Sprites/coinzz.png
+* Assets/Art/Sprites/coinzz.png.meta
+* Assets/Art/Sprites/moneybag1.png
+* Assets/Art/Sprites/moneybag1.png.meta
+* Assets/Audio/zapsplat_foley_money_coins_drop_into_purse_or_wallet_001_13521.mp3
+* Assets/Audio/zapsplat_foley_money_coins_drop_into_purse_or_wallet_001_13521.mp3.meta
+
+
+Deleted files:
+
+
+Renamed files:

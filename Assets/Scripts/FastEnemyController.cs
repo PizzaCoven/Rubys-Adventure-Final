@@ -94,6 +94,7 @@ public class FastEnemyController : MonoBehaviour
         if (player != null)
         {
             player.ChangeHealth(-2);
+            player.ChangeCoin(-2);
         }
     }
     public void Fix()
@@ -107,7 +108,7 @@ public class FastEnemyController : MonoBehaviour
         RobotsFixed.instance.FixRobot();
         enemyAudio.Stop();
         enemyOneShot(fixAudioClip);
-        
+       
 
     }
      public void enemyOneShot(AudioClip clip)
