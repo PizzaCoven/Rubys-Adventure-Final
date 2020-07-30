@@ -131,9 +131,21 @@ public class RubyController : MonoBehaviour
                     character.DisplayDialog();}
             }
         }
-
-
+        //
+         if (Input.GetKeyDown(KeyCode.X))
+        {
+            RaycastHit2D hit = Physics2D.Raycast(rigidbody2d.position + Vector2.up * 0.2f, lookDirection, 1.5f, LayerMask.GetMask("NPC2"));
+            if (hit.collider != null)
+            {
+                NonPlayerCharacter character = hit.collider.GetComponent<NonPlayerCharacter>();
+               if (character != null)
+                {
+                    character.DisplayDialog();}
+            }
+        }
 //
+
+
         if (Input.GetKeyDown(KeyCode.X))
             {
                 RaycastHit2D hit = Physics2D.Raycast(rigidbody2d.position + Vector2.up * 0.2f, lookDirection, 1.5f, LayerMask.GetMask("NPC"));
@@ -144,7 +156,7 @@ public class RubyController : MonoBehaviour
                     {
                     
                         Debug.Log(RobotsFixed.instance.robotsFixed);
-                        if((RobotsFixed.instance.robotsFixed == 6 && currentCoin >=6 ))
+                        if((RobotsFixed.instance.robotsFixed == 6 && currentCoin ==5))
                         {
                         character.DisplayDialog2();
                         StartCoroutine(WaitForSec());
@@ -159,7 +171,36 @@ public class RubyController : MonoBehaviour
             }
             }
             
-//
+
+            //
+             if (Input.GetKeyDown(KeyCode.X))
+            {
+                RaycastHit2D hit = Physics2D.Raycast(rigidbody2d.position + Vector2.up * 0.2f, lookDirection, 1.5f, LayerMask.GetMask("NPC2"));
+                if (hit.collider != null)
+                {
+                    NonPlayerCharacter character = hit.collider.GetComponent<NonPlayerCharacter>();
+                if (character != null)
+                    {
+                    
+                        Debug.Log(RobotsFixed.instance.robotsFixed);
+                        if((RobotsFixed.instance.robotsFixed == 6 && currentCoin >=5 ))
+                        {
+                        character.DisplayDialog2();
+                        StartCoroutine(WaitForSec());
+                        }
+                    IEnumerator WaitForSec()
+                    { 
+                        yield return new WaitForSeconds(4);
+                       
+                                audioSource.Play();
+                                speed = 0;
+                                //winText.text = "You Win!";      
+                                }
+                    }
+                }
+            }
+            //
+
 
         if (Input.GetKeyDown(KeyCode.X))
         {
@@ -200,14 +241,14 @@ public class RubyController : MonoBehaviour
 
         rigidbody2d.MovePosition(position);
     //
-       Debug.Log(RobotsFixed.instance.robotsFixed);
-                         if((RobotsFixed.instance.robotsFixed >= 6 && currentCoin >=5))
-                                { //&& !audioSource.isPlaying
+       //Debug.Log(RobotsFixed.instance.robotsFixed);
+                         //if((RobotsFixed.instance.robotsFixed >= 6 && currentCoin >=5))
+                             //   { //&& !audioSource.isPlaying
                                 //PlaySound(winSound);
-                                audioSource.Play();
-                                speed = 0;
+                                //audioSource.Play();
+                                //speed = 0;
                                 //winText.text = "You Win!";      
-                                }
+                                //}
   
 
            }

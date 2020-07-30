@@ -1,0 +1,19 @@
+-------------------- Auto-Git Log --------------------
+		Thu Jul 30 2020 17:05:31 GMT-0400 (Eastern Daylight Time)
+------------------------------------------------------
+
+Modified files:
+* Assets/RubyFInal2.unity
+* Assets/RubyFinal.unity
+* Assets/Scripts/DamageZone.cs
+* Assets/Scripts/RubyController.cs
+
+
+Created files:
+* .autogit/logs/log-30-6-2020-16-35-21.txt
+
+
+Deleted files:
+
+
+Renamed files:
