@@ -142,9 +142,9 @@ public class RubyController : MonoBehaviour
                         
                     IEnumerator WaitForSec()
                     { 
-                        yield return new WaitForSeconds(2);
+                        yield return new WaitForSeconds(4);
                         SceneManager.LoadScene("MainScene2");
-                        Player.transform.position = new Vector4(-12.85f,3.85f,494.55f);
+                        //Player.transform.position = new Vector4(-12.85f,3.85f,494.55f);
                     }
                 }
             }
