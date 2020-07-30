@@ -28,7 +28,8 @@ public class RubyController : MonoBehaviour
     float vertical;
     Animator animator;
     Vector2 lookDirection = new Vector2(1,0);
-    public AudioClip winSound;
+    
+
     AudioSource audioSource;
     public GameObject hitEffect;
     public AudioClip findSound;
@@ -52,7 +53,7 @@ public class RubyController : MonoBehaviour
         //RobotsFixed.instance.FixRobot();
         
         audioSource = GetComponent<AudioSource>();
-
+        
 
 
     }
@@ -188,14 +189,17 @@ public class RubyController : MonoBehaviour
     //
        
     Debug.Log(RobotsFixed.instance.robotsFixed);
-     if(RobotsFixed.instance.robotsFixed == 1)
+     if((RobotsFixed.instance.robotsFixed == 1 && !audioSource.isPlaying))
          { 
-          //GameObject.SetActive(false);
-         PlaySound(winSound);
+          
+         //PlaySound(winSound);
+         audioSource.Play();
+ }
+
            }
 
            //
-    }
+    
     void Restart()
         {
             StartCoroutine(WaitForSec());
