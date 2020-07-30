@@ -1,0 +1,18 @@
+-------------------- Auto-Git Log --------------------
+		Wed Jul 29 2020 21:22:33 GMT-0400 (Eastern Daylight Time)
+------------------------------------------------------
+
+Modified files:
+* Assets/MainScene2.unity
+* "Assets/Ruby Final.unity"
+* Assets/Scripts/RubyController.cs
+
+
+Created files:
+* .autogit/logs/log-29-6-2020-20-52-21.txt
+
+
+Deleted files:
+
+
+Renamed files:
