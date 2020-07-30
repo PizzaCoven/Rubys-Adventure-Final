@@ -1,0 +1,20 @@
+-------------------- Auto-Git Log --------------------
+		Thu Jul 30 2020 03:49:04 GMT-0400 (Eastern Daylight Time)
+------------------------------------------------------
+
+Modified files:
+* Assets/Art/Animations/AnimationClips/HealtCollectibles.anim
+* Assets/Art/Animations/AnimationClips/Health.controller
+* Assets/Prefabs/CollectibleHealth.prefab
+* Assets/RubyFInal2.unity
+* Assets/RubyFinal.unity
+
+
+Created files:
+* .autogit/logs/log-30-6-2020-3-18-59.txt
+
+
+Deleted files:
+
+
+Renamed files:
