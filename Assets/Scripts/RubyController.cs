@@ -38,6 +38,7 @@ public class RubyController : MonoBehaviour
    
     public Text ammoText;
    //public Text winText;
+    
    
     
   
@@ -53,7 +54,7 @@ public class RubyController : MonoBehaviour
         //RobotsFixed.instance.FixRobot();
         
         audioSource = GetComponent<AudioSource>();
-        
+       
 
 
     }
@@ -193,6 +194,7 @@ public class RubyController : MonoBehaviour
                                 { 
                                 //PlaySound(winSound);
                                 audioSource.Play();
+                                speed = 0;
                                 //winText.text = "You Win!";      
                                 }
   
