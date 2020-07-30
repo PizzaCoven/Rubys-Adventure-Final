@@ -37,7 +37,7 @@ public class RubyController : MonoBehaviour
     public int maxAmmo = 6; 
    
     public Text ammoText;
-    public Text winText;
+   //public Text winText;
    
     
   
@@ -146,14 +146,7 @@ public class RubyController : MonoBehaviour
                     { 
                         yield return new WaitForSeconds(4);
                         SceneManager.LoadScene("RubyFinal2");
-                          Debug.Log(RobotsFixed.instance.robotsFixed);
-                         if(RobotsFixed.instance.robotsFixed >= 1 )
-                                { //&& !audioSource.isPlaying))
-                                
-                                //PlaySound(winSound);
-                                audioSource.Play();
-                                winText.text = "You Win!";      
-                                }
+                         
                     }
                 }
             }
@@ -195,7 +188,13 @@ public class RubyController : MonoBehaviour
 
         rigidbody2d.MovePosition(position);
     //
-      
+       Debug.Log(RobotsFixed.instance.robotsFixed);
+                         if((RobotsFixed.instance.robotsFixed >= 1 && !audioSource.isPlaying))
+                                { 
+                                //PlaySound(winSound);
+                                audioSource.Play();
+                                //winText.text = "You Win!";      
+                                }
   
 
            }
@@ -208,7 +207,7 @@ public class RubyController : MonoBehaviour
                         
                     IEnumerator WaitForSec()
                     { 
-                        yield return new WaitForSeconds(3);
+                        yield return new WaitForSeconds(1);
                         SceneManager.LoadScene("RubyFinal");}
         }
 
