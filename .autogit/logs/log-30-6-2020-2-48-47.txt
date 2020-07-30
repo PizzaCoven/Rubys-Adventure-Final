@@ -1,0 +1,26 @@
+-------------------- Auto-Git Log --------------------
+		Thu Jul 30 2020 02:48:47 GMT-0400 (Eastern Daylight Time)
+------------------------------------------------------
+
+Modified files:
+* Assets/Prefabs/ResourceCube.prefab
+
+
+Created files:
+* .autogit/logs/log-30-6-2020-2-18-39.txt
+* Assets/Art/Sprites/Butterfly2.0.anim
+* Assets/Art/Sprites/Butterfly2.0.anim.meta
+* Assets/Art/Sprites/Butterfly2.0.controller
+* Assets/Art/Sprites/Butterfly2.0.controller.meta
+* "Assets/Art/Sprites/NPC (1).controller"
+* "Assets/Art/Sprites/NPC (1).controller.meta"
+* Assets/Prefabs/Butterfly.prefab
+* Assets/Prefabs/Butterfly.prefab.meta
+* "Assets/Prefabs/Green Butterfly.prefab"
+* "Assets/Prefabs/Green Butterfly.prefab.meta"
+
+
+Deleted files:
+
+
+Renamed files:
