@@ -37,7 +37,7 @@ public class RubyController : MonoBehaviour
     public int maxAmmo = 6; 
    
     public Text ammoText;
-    
+    public Text winText;
    
     
   
@@ -194,6 +194,8 @@ public class RubyController : MonoBehaviour
           
          //PlaySound(winSound);
          audioSource.Play();
+         winText.text = "You Win!";
+
  }
 
            }
