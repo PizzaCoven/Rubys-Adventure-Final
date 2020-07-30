@@ -52,6 +52,9 @@ public class RubyController : MonoBehaviour
         //RobotsFixed.instance.FixRobot();
         
         audioSource = GetComponent<AudioSource>();
+
+
+
     }
 
     // Update is called once per frame
@@ -183,12 +186,15 @@ public class RubyController : MonoBehaviour
 
         rigidbody2d.MovePosition(position);
     //
-        Debug.Log(RobotsFixed.instance.robotsFixed);
+       
+    Debug.Log(RobotsFixed.instance.robotsFixed);
      if(RobotsFixed.instance.robotsFixed == 1)
          { 
           //GameObject.SetActive(false);
          PlaySound(winSound);
            }
+
+           //
     }
     void Restart()
         {

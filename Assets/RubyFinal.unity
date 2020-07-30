@@ -23293,6 +23293,11 @@ PrefabInstance:
       propertyPath: m_Volume
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 504282544600421592, guid: d24b1bef8bf6640579cb74801d3119ad,
+        type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 2814498796947850509, guid: d24b1bef8bf6640579cb74801d3119ad,
         type: 3}
       propertyPath: hitEffect

@@ -1,0 +1,21 @@
+-------------------- Auto-Git Log --------------------
+		Thu Jul 30 2020 05:49:47 GMT-0400 (Eastern Daylight Time)
+------------------------------------------------------
+
+Modified files:
+* Assets/Audio/audio_hero_Standing-Tall_SIPML_D-0701.mp3.meta
+* Assets/Audio/zapsplat_cartoon_fail_brassy_synth_wah_001_45239.mp3.meta
+* Assets/RubyFinal.unity
+* Assets/Scripts/RubyController.cs
+
+
+Created files:
+* .autogit/logs/log-30-6-2020-5-19-44.txt
+* "Assets/Prefabs/End Music.prefab"
+* "Assets/Prefabs/End Music.prefab.meta"
+
+
+Deleted files:
+
+
+Renamed files:
