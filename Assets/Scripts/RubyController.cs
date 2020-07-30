@@ -146,6 +146,14 @@ public class RubyController : MonoBehaviour
                     { 
                         yield return new WaitForSeconds(4);
                         SceneManager.LoadScene("RubyFinal2");
+                          Debug.Log(RobotsFixed.instance.robotsFixed);
+                         if(RobotsFixed.instance.robotsFixed >= 1 )
+                                { //&& !audioSource.isPlaying))
+                                
+                                //PlaySound(winSound);
+                                audioSource.Play();
+                                winText.text = "You Win!";      
+                                }
                     }
                 }
             }
@@ -187,16 +195,8 @@ public class RubyController : MonoBehaviour
 
         rigidbody2d.MovePosition(position);
     //
-       
-    Debug.Log(RobotsFixed.instance.robotsFixed);
-     if((RobotsFixed.instance.robotsFixed == 1 && !audioSource.isPlaying))
-         { 
-          
-         //PlaySound(winSound);
-         audioSource.Play();
-         winText.text = "You Win!";
-
- }
+      
+  
 
            }
 
