@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 6705043726149338399}
   - component: {fileID: 5789882414246247661}
   - component: {fileID: 697340910986235521}
+  - component: {fileID: 6254728478076825990}
   m_Layer: 0
   m_Name: CollectibleHealth
   m_TagString: Untagged
@@ -28,8 +29,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4808803413513596585}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 0.897, y: -0.253, z: 0}
+  m_LocalScale: {x: 1.7010075, y: 1.7010075, z: 1.7010075}
   m_Children:
   - {fileID: 4926271601313481986}
   m_Father: {fileID: 0}
@@ -222,6 +223,25 @@ MonoBehaviour:
   collectedClip: {fileID: 8300000, guid: af5f8b64e3f58f24c87ff8f789b04f6c, type: 3}
   twinkleEffect: {fileID: 412327291059105354, guid: 3cf435f86e88841ab86de19824d88555,
     type: 3}
+--- !u!95 &6254728478076825990
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4808803413513596585}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 5a4ce1b860406ab4ba32ea55ba8715a9, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1001 &4748272400182045515
 PrefabInstance:
   m_ObjectHideFlags: 0
