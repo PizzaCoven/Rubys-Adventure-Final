@@ -1,0 +1,26 @@
+-------------------- Auto-Git Log --------------------
+		Thu Jul 30 2020 00:48:05 GMT-0400 (Eastern Daylight Time)
+------------------------------------------------------
+
+Modified files:
+* .DS_Store
+* Assets/.DS_Store
+* Assets/Art/Sprites/.DS_Store
+* Assets/Prefabs/CogPickUp.prefab
+* Assets/RubyFinal.unity
+* Assets/Scripts/RubyController.cs
+* ProjectSettings/EditorBuildSettings.asset
+* ProjectSettings/Physics2DSettings.asset
+* ProjectSettings/TagManager.asset
+
+
+Created files:
+* .autogit/logs/log-30-6-2020-0-17-53.txt
+* Assets/RubyFInal2.unity
+* Assets/RubyFInal2.unity.meta
+
+
+Deleted files:
+
+
+Renamed files:
