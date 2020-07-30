@@ -234,7 +234,7 @@ public class RubyController : MonoBehaviour
         }
         public void ChangeRedAmmo(int amount)
         {   
-        currentRedAmmo += 1;
+        currentRedAmmo += 3;
     
         }
          public void ChangeCoin(int amount)

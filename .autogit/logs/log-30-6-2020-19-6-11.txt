@@ -1,0 +1,21 @@
+-------------------- Auto-Git Log --------------------
+		Thu Jul 30 2020 19:06:11 GMT-0400 (Eastern Daylight Time)
+------------------------------------------------------
+
+Modified files:
+* Assets/RubyFInal2.unity
+* Assets/RubyFinal.unity
+* Assets/Scripts/NewProjectile.cs
+* Assets/Scripts/RubyController.cs
+
+
+Created files:
+* .autogit/logs/log-30-6-2020-18-36-4.txt
+* Assets/Prefabs/NewProjectile.prefab
+* Assets/Prefabs/NewProjectile.prefab.meta
+
+
+Deleted files:
+
+
+Renamed files:
