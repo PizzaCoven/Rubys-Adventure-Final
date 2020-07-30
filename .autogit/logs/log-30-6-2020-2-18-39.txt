@@ -1,0 +1,25 @@
+-------------------- Auto-Git Log --------------------
+		Thu Jul 30 2020 02:18:39 GMT-0400 (Eastern Daylight Time)
+------------------------------------------------------
+
+Modified files:
+
+
+Created files:
+* .autogit/logs/log-30-6-2020-1-48-29.txt
+* Assets/Art/Animations/Animators/Butterfly.controller
+* Assets/Art/Animations/Animators/Butterfly.controller.meta
+* Assets/Art/Sprites/Butterfly2.anim
+* Assets/Art/Sprites/Butterfly2.anim.meta
+* Assets/Art/Sprites/Butterfly2.controller
+* Assets/Art/Sprites/Butterfly2.controller.meta
+* "Assets/Art/Sprites/Cog Ammo.controller"
+* "Assets/Art/Sprites/Cog Ammo.controller.meta"
+* Assets/Art/Sprites/Health.controller
+* Assets/Art/Sprites/Health.controller.meta
+
+
+Deleted files:
+
+
+Renamed files:
