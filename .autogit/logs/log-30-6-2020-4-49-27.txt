@@ -1,0 +1,33 @@
+-------------------- Auto-Git Log --------------------
+		Thu Jul 30 2020 04:49:27 GMT-0400 (Eastern Daylight Time)
+------------------------------------------------------
+
+Modified files:
+* Assets/Art/Animations/AnimationClips/HealtCollectibles.anim
+* Assets/Art/Animations/AnimationClips/Health.controller
+* Assets/RubyFInal2.unity
+* Assets/RubyFinal.unity
+* Assets/Scripts/ResourceCube.cs
+* Assets/Scripts/ResourceCube.cs.meta
+* Assets/Scripts/RubyController.cs
+* Assets/Scripts/RubyController.cs.meta
+
+
+Created files:
+* .autogit/logs/log-30-6-2020-4-19-18.txt
+* Assets/Audio/audio_hero_Standing-Tall_SIPML_D-0701.mp3
+* Assets/Audio/audio_hero_Standing-Tall_SIPML_D-0701.mp3.meta
+* Assets/Audio/cartoon_character_high_pitched_voice_says_oh_no.mp3
+* Assets/Audio/cartoon_character_high_pitched_voice_says_oh_no.mp3.meta
+* Assets/Audio/cartoon_character_high_pitched_voice_says_oh_right.mp3
+* Assets/Audio/cartoon_character_high_pitched_voice_says_oh_right.mp3.meta
+* Assets/Audio/zapsplat_cartoon_fail_brassy_synth_wah_001_45239.mp3
+* Assets/Audio/zapsplat_cartoon_fail_brassy_synth_wah_001_45239.mp3.meta
+
+
+Deleted files:
+* "Assets/Art/Sprites/NPC (1).controller"
+* "Assets/Art/Sprites/NPC (1).controller.meta"
+
+
+Renamed files:

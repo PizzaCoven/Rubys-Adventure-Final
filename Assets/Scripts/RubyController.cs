@@ -16,7 +16,7 @@ public class RubyController : MonoBehaviour
     //public GameObject twinkleEffect;
 
 
-    public AudioClip dieSound;
+    //public AudioClip dieSound;
     public int health { get { return currentHealth; }}
     int currentHealth;
     
@@ -69,9 +69,9 @@ public class RubyController : MonoBehaviour
     }
         if(health <= 0)
         {
+         //PlaySound(dieSound);
+         Invoke("Restart", 3.0f);
          
-         Invoke("Restart", 2.0f);
-         PlaySound(dieSound);
         }
 
         horizontal = Input.GetAxis("Horizontal");
@@ -143,14 +143,11 @@ public class RubyController : MonoBehaviour
                         yield return new WaitForSeconds(4);
                         SceneManager.LoadScene("RubyFinal2");
                         
+                        Debug.Log(RobotsFixed.instance.robotsFixed);
                         if(RobotsFixed.instance.robotsFixed == 6)
-                        { PlaySound(winSound);
-                            
-                            //finalWin(winAudioClip); }
-                    }
-                    //public void finalWin(AudioClip clip)
-                       // {
-                        //    winAudio.PlayfinalWin(clip);
+                        { 
+                            PlaySound(winSound);
+                        }
                         }
                 }
             }
@@ -166,8 +163,9 @@ public class RubyController : MonoBehaviour
                 ResourceCube rc = hit.collider.GetComponent<ResourceCube>();
                     if (rc != null)
                         {
+                            PlaySound(findSound);
                             rc.BlownUp();
-                            PlaySound(Sound);
+                            
                         }
             }
         }
@@ -194,8 +192,16 @@ public class RubyController : MonoBehaviour
     }
     void Restart()
         {
-            SceneManager.LoadScene("RubyFinal");
+            StartCoroutine(WaitForSec());
+                        
+                    IEnumerator WaitForSec()
+                    { 
+                        yield return new WaitForSeconds(3);
+                        SceneManager.LoadScene("RubyFinal");}
         }
+
+
+
      public void ChangeHealth(int amount)
     {
         if (amount < 0)
