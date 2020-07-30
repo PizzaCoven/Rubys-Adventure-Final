@@ -23,19 +23,18 @@ public class RobotsFixed : MonoBehaviour
         robotsFixed = robotsFixed + 1;
         GetComponent<Text>().text = "Robots Fixed:" + robotsFixed.ToString() + "/6";
         
-        if(robotsFixed == 6)
-        {
-        //JambiUI.SetActive(true);
-        StartCoroutine(WaitForSec());
-        }
-        IEnumerator WaitForSec()
-        { 
-            yield return new WaitForSeconds(2);
-            SceneManager.LoadScene("MainScene2");
+        //if(robotsFixed == 6)
+        //{
+       
+        //StartCoroutine(WaitForSec());
+        ////}
+        //IEnumerator WaitForSec()
+        //{ 
+           // yield return new WaitForSeconds(2);
+           // SceneManager.LoadScene("MainScene2");
             //Player.transform.position = new Vector4(-12.85f,3.85f,494.55f);
             
-            //Destroy(JambiUI);
-        }
+        //}
 
 }
 }

@@ -1,0 +1,16 @@
+-------------------- Auto-Git Log --------------------
+		Wed Jul 29 2020 19:52:01 GMT-0400 (Eastern Daylight Time)
+------------------------------------------------------
+
+Modified files:
+* Assets/Scripts/RubyController.cs
+
+
+Created files:
+* .autogit/logs/log-29-6-2020-19-5-8.txt
+
+
+Deleted files:
+
+
+Renamed files:

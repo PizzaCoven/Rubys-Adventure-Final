@@ -49,7 +49,7 @@ public class RubyController : MonoBehaviour
         animator = GetComponent<Animator>();
         currentHealth = maxHealth;
         currentAmmo = maxAmmo;
-        RobotsFixed.instance.FixRobot();
+        //RobotsFixed.instance.FixRobot();
         
         audioSource = GetComponent<AudioSource>();
     }
@@ -131,13 +131,23 @@ public class RubyController : MonoBehaviour
                     NonPlayerCharacter character = hit.collider.GetComponent<NonPlayerCharacter>();
                 if (character != null)
                     {
-                        //RobotsFixed gameObject = GetComponent<RobotsFixed>();
-                        //RobotsFixed.instance.FixRobot();
-                        if(robotsFixed == 1)
+                    
+                        // You need to reference the static variable on the instance on the class. 
+                        //It's a little werid, but think of it as getting a reference to that specific component and saving it as a globally accessible variable.
+                        Debug.Log(RobotsFixed.instance.robotsFixed);
+                        if(RobotsFixed.instance.robotsFixed == 1)
                         {
                         character.DisplayDialog2();
-                        }
+                        StartCoroutine(WaitForSec());
+                        
+                    IEnumerator WaitForSec()
+                    { 
+                        yield return new WaitForSeconds(2);
+                        SceneManager.LoadScene("MainScene2");
+                        Player.transform.position = new Vector4(-12.85f,3.85f,494.55f);
+                    }
                 }
+            }
             }
             }
 //
