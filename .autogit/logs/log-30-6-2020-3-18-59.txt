@@ -1,0 +1,32 @@
+-------------------- Auto-Git Log --------------------
+		Thu Jul 30 2020 03:18:59 GMT-0400 (Eastern Daylight Time)
+------------------------------------------------------
+
+Modified files:
+* Assets/Art/Animations/Animators/Butterfly.anim
+* Assets/Art/Animations/Animators/Butterfly.controller
+* Assets/Art/Animations/Animators/CollectibleAmmo.controller
+* Assets/Art/Animations/Jambi.controller
+* Assets/Art/Sprites/Butterfly2.0.anim
+* Assets/Art/Sprites/Butterfly2.0.controller
+* Assets/Art/Sprites/Butterfly2.anim
+* Assets/Art/Sprites/Butterfly2.controller
+* "Assets/Art/Sprites/Cog Ammo.controller"
+* Assets/Art/Sprites/Cogs.controller
+* Assets/Art/Sprites/Health.controller
+* "Assets/Art/Sprites/NPC (1).controller"
+* Assets/Prefabs/CollectibleHealth.prefab
+* Assets/RubyFInal2.unity
+* Assets/RubyFinal.unity
+
+
+Created files:
+* .autogit/logs/log-30-6-2020-2-48-47.txt
+* Assets/Art/Animations/AnimationClips/Health.controller
+* Assets/Art/Animations/AnimationClips/Health.controller.meta
+
+
+Deleted files:
+
+
+Renamed files:
