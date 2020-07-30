@@ -1,0 +1,22 @@
+-------------------- Auto-Git Log --------------------
+		Thu Jul 30 2020 04:19:18 GMT-0400 (Eastern Daylight Time)
+------------------------------------------------------
+
+Modified files:
+* Assets/Prefabs/CollectibleHealth.prefab
+
+
+Created files:
+* .autogit/logs/log-30-6-2020-3-49-4.txt
+
+
+Deleted files:
+* "Assets/Art/Sprites/Cog Ammo.controller"
+* "Assets/Art/Sprites/Cog Ammo.controller.meta"
+* Assets/Art/Sprites/Cogs.controller
+* Assets/Art/Sprites/Cogs.controller.meta
+* Assets/Art/Sprites/Health.controller
+* Assets/Art/Sprites/Health.controller.meta
+
+
+Renamed files:

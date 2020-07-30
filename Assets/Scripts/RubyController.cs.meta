@@ -7,10 +7,9 @@ MonoImporter:
   - projectilePrefab: {fileID: 1055604253351469263, guid: f463462d42a0742db9035175fcd4641c,
       type: 3}
   - throwSound: {fileID: 8300000, guid: b2edfd40873655249ba0e01a5cf705be, type: 3}
-  - hitSound: {fileID: 8300000, guid: 9b1bb1f450b7d444fa4a8019d13519a7, type: 3}
-  - collectedClip: {fileID: 8300000, guid: af5f8b64e3f58f24c87ff8f789b04f6c, type: 3}
-  - twinkleEffect: {fileID: 412327291059105354, guid: 3cf435f86e88841ab86de19824d88555,
-      type: 3}
+  - hitSound: {fileID: 8300000, guid: d58310c9864f7499e97abff8ef4448cd, type: 3}
+  - dieSound: {fileID: 8300000, guid: d49110d2425724cd9a9190107073fd07, type: 3}
+  - winSound: {fileID: 8300000, guid: e41fd518e49d44f35a3e592582ccef72, type: 3}
   - hitEffect: {fileID: 4460409188282054484, guid: 808fc41e87dac4abbad1759eb639c47b,
       type: 3}
   - ammoText: {fileID: 7822101478119537534, guid: f33eccd670e284d1aa7a66ebc4aba08d,

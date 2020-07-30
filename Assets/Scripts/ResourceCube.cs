@@ -6,6 +6,7 @@ public class ResourceCube : MonoBehaviour
 {
     public HealthCollectible healthCollectible;
     public CogCollectible cogCollectible;
+  
     int randomNumber;
     int randomNumber2;
 

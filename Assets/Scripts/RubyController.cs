@@ -16,7 +16,7 @@ public class RubyController : MonoBehaviour
     //public GameObject twinkleEffect;
 
 
-    //public AudioClip dieSound;
+    public AudioClip dieSound;
     public int health { get { return currentHealth; }}
     int currentHealth;
     
@@ -28,10 +28,10 @@ public class RubyController : MonoBehaviour
     float vertical;
     Animator animator;
     Vector2 lookDirection = new Vector2(1,0);
-    
+    public AudioClip winSound;
     AudioSource audioSource;
     public GameObject hitEffect;
-    
+    public AudioClip findSound;
     public int currentAmmo = 6;
     public int maxAmmo = 6; 
    
@@ -71,7 +71,7 @@ public class RubyController : MonoBehaviour
         {
          
          Invoke("Restart", 2.0f);
-         //PlaySound(hitSound);
+         PlaySound(dieSound);
         }
 
         horizontal = Input.GetAxis("Horizontal");
@@ -133,7 +133,7 @@ public class RubyController : MonoBehaviour
                     {
                     
                         Debug.Log(RobotsFixed.instance.robotsFixed);
-                        if(RobotsFixed.instance.robotsFixed == 1)
+                        if(RobotsFixed.instance.robotsFixed == 6)
                         {
                         character.DisplayDialog2();
                         StartCoroutine(WaitForSec());
@@ -142,8 +142,16 @@ public class RubyController : MonoBehaviour
                     { 
                         yield return new WaitForSeconds(4);
                         SceneManager.LoadScene("RubyFinal2");
-                        //Player.transform.position = new Vector4(-12.85f,3.85f,494.55f);
+                        
+                        if(RobotsFixed.instance.robotsFixed == 6)
+                        { PlaySound(winSound);
+                            
+                            //finalWin(winAudioClip); }
                     }
+                    //public void finalWin(AudioClip clip)
+                       // {
+                        //    winAudio.PlayfinalWin(clip);
+                        }
                 }
             }
             }
@@ -159,6 +167,7 @@ public class RubyController : MonoBehaviour
                     if (rc != null)
                         {
                             rc.BlownUp();
+                            PlaySound(Sound);
                         }
             }
         }
