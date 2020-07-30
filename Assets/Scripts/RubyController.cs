@@ -20,7 +20,6 @@ public class RubyController : MonoBehaviour
     public int health { get { return currentHealth; }}
     int currentHealth;
     
-    
     public float timeInvincible = 2.0f;
     bool isInvincible;
     float invincibleTimer;
@@ -32,12 +31,12 @@ public class RubyController : MonoBehaviour
     
     AudioSource audioSource;
     public GameObject hitEffect;
-    //public int ammo { get {return currentAmmo; }}
+    
     public int currentAmmo = 6;
     public int maxAmmo = 6; 
-    //public int minAmmo = 0;
+   
     public Text ammoText;
-    //public int robotsFixed = 0;
+    
    
     
   
@@ -132,8 +131,6 @@ public class RubyController : MonoBehaviour
                 if (character != null)
                     {
                     
-                        // You need to reference the static variable on the instance on the class. 
-                        //It's a little werid, but think of it as getting a reference to that specific component and saving it as a globally accessible variable.
                         Debug.Log(RobotsFixed.instance.robotsFixed);
                         if(RobotsFixed.instance.robotsFixed == 1)
                         {
@@ -167,19 +164,13 @@ public class RubyController : MonoBehaviour
     }
     
     
-//void OnTriggerEnter2D(Collider2D other)
-    //{
-      //   if(other.gameObject.tag == "PickUp")
-     //{
+
        public void ChangeAmmo(int amount)
-        {
-        //PlaySound(collectedClip);
-        //Destroy(gameObject);    
+        {   
         currentAmmo += 3;
-        //GetComponent<Text>().text = currentAmmo.ToString();
-       
-    }
-    //}
+    
+        }
+   
 
      void FixedUpdate()
     {
