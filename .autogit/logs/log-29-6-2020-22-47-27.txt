@@ -1,0 +1,22 @@
+-------------------- Auto-Git Log --------------------
+		Wed Jul 29 2020 22:47:27 GMT-0400 (Eastern Daylight Time)
+------------------------------------------------------
+
+Modified files:
+* .DS_Store
+* Assets/Scripts/RubyController.cs
+* ProjectSettings/EditorBuildSettings.asset
+
+
+Created files:
+* .autogit/logs/log-29-6-2020-21-52-47.txt
+* Assets/FinalScene2.unity
+* Assets/FinalScene2.unity.meta
+* Assets/RubyFinal.unity
+* Assets/RubyFinal.unity.meta
+
+
+Deleted files:
+
+
+Renamed files:
