@@ -1,0 +1,27 @@
+-------------------- Auto-Git Log --------------------
+		Thu Jul 30 2020 01:48:29 GMT-0400 (Eastern Daylight Time)
+------------------------------------------------------
+
+Modified files:
+* Assets/Art/Animations/AnimationClips/AmmoCollectibles.anim
+* Assets/Prefabs/CollectibleHealth.prefab
+* Assets/RubyFInal2.unity
+* Assets/RubyFinal.unity
+
+
+Created files:
+* .autogit/logs/log-30-6-2020-1-18-22.txt
+* Assets/Art/Animations/Animators/Butterfly.anim
+* Assets/Art/Animations/Animators/Butterfly.anim.meta
+* Assets/Art/Sprites/Cogs.controller
+* Assets/Art/Sprites/Cogs.controller.meta
+* Assets/Art/Sprites/Daco_1781669.png
+* Assets/Art/Sprites/Daco_1781669.png.meta
+* Assets/Art/Sprites/Daco_4856506.png
+* Assets/Art/Sprites/Daco_4856506.png.meta
+
+
+Deleted files:
+
+
+Renamed files:
