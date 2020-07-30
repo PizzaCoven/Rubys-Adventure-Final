@@ -21,7 +21,7 @@ public class RobotsFixed : MonoBehaviour
     public void FixRobot() 
     {
         robotsFixed = robotsFixed + 1;
-        GetComponent<Text>().text = "Robots Fixed:" + robotsFixed.ToString() + "/6";
+        GetComponent<Text>().text = "" + robotsFixed.ToString() + "/6";
         
         //if(robotsFixed == 6)
         //{

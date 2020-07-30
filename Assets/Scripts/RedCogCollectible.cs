@@ -2,9 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CogCollectible : MonoBehaviour
-{ 
-    public AudioClip collectedClip;
+public class RedCogCollectible : MonoBehaviour
+{ public AudioClip collectedClip;
     public GameObject twinkleEffect;
 
     void OnTriggerEnter2D(Collider2D other)
@@ -15,13 +14,13 @@ public class CogCollectible : MonoBehaviour
         
         if (controller != null)
         {
-            if (controller.currentAmmo < controller.maxAmmo)
+            if (controller.currentRedAmmo < controller.maxRedAmmo)
             {
             	
               
               controller.PlaySound(collectedClip);
               Destroy(gameObject);
-              controller.ChangeAmmo(1);
+              controller.ChangeRedAmmo(1);
             	
             }
         }
@@ -29,6 +28,3 @@ public class CogCollectible : MonoBehaviour
     }
    
 }
-
-
-    

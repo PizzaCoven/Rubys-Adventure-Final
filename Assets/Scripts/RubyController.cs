@@ -35,9 +35,12 @@ public class RubyController : MonoBehaviour
     public AudioClip findSound;
     public int currentAmmo = 6;
     public int maxAmmo = 6; 
+    public int currentRedAmmo = 2;
+    public int maxRedAmmo = 2; 
    
     public Text ammoText;
-   //public Text winText;
+    public Text ammoRedText;
+  
    public int currentCoin = 0;
    public int maxCoin = 5;
    public Text coinText;
@@ -186,15 +189,15 @@ public class RubyController : MonoBehaviour
                         if((RobotsFixed.instance.robotsFixed == 6 && currentCoin >=5 ))
                         {
                         character.DisplayDialog2();
-                        StartCoroutine(WaitForSec());
-                        }
-                    IEnumerator WaitForSec()
-                    { 
-                        yield return new WaitForSeconds(4);
+                        //StartCoroutine(WaitForSec());
+                       // }
+                    //IEnumerator WaitForSec()
+                    //{ 
+                       // yield return new WaitForSeconds(1);
                        
                                 audioSource.Play();
                                 speed = 0;
-                                //winText.text = "You Win!";      
+                                
                                 }
                     }
                 }
