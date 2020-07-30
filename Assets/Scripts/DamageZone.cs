@@ -15,7 +15,7 @@ public class DamageZone : MonoBehaviour
         if (controller != null)
         {
             controller.ChangeHealth(-1);
-            controller.ChangeCoin(-1);
+            
         }
     }
 }

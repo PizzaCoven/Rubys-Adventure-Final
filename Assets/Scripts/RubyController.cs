@@ -66,7 +66,7 @@ public class RubyController : MonoBehaviour
     void Update()
     {
 
-             coinText.GetComponent<Text>().text = currentCoin.ToString();
+             coinText.GetComponent<Text>().text = "" + currentCoin.ToString() + "/5";
 
          if (Input.GetKey("escape"))
            { Application.Quit();}
@@ -144,7 +144,7 @@ public class RubyController : MonoBehaviour
                     {
                     
                         Debug.Log(RobotsFixed.instance.robotsFixed);
-                        if(RobotsFixed.instance.robotsFixed == 6)
+                        if((RobotsFixed.instance.robotsFixed == 6 && currentCoin >=6 ))
                         {
                         character.DisplayDialog2();
                         StartCoroutine(WaitForSec());
@@ -187,7 +187,6 @@ public class RubyController : MonoBehaviour
          public void ChangeCoin(int amount)
         {   
         currentCoin += 1;
-        //GetComponent<Text>().text = "" + currentCoin.ToString() + "/5";
         }
 
    
@@ -202,8 +201,8 @@ public class RubyController : MonoBehaviour
         rigidbody2d.MovePosition(position);
     //
        Debug.Log(RobotsFixed.instance.robotsFixed);
-                         if((RobotsFixed.instance.robotsFixed >= 1 && !audioSource.isPlaying))
-                                { 
+                         if((RobotsFixed.instance.robotsFixed >= 6 && currentCoin >=5))
+                                { //&& !audioSource.isPlaying
                                 //PlaySound(winSound);
                                 audioSource.Play();
                                 speed = 0;

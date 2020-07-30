@@ -1,0 +1,24 @@
+-------------------- Auto-Git Log --------------------
+		Thu Jul 30 2020 16:35:21 GMT-0400 (Eastern Daylight Time)
+------------------------------------------------------
+
+Modified files:
+* Assets/RubyFInal2.unity
+* Assets/RubyFinal.unity
+* Assets/Scripts/CogCollectible.cs
+* Assets/Scripts/CoinCollectible.cs
+* Assets/Scripts/EnemyController.cs
+* Assets/Scripts/FastEnemyController.cs
+* Assets/Scripts/RubyController.cs
+
+
+Created files:
+* .autogit/logs/log-30-6-2020-16-5-8.txt
+* Assets/Prefabs/Coin.prefab
+* Assets/Prefabs/Coin.prefab.meta
+
+
+Deleted files:
+
+
+Renamed files:
