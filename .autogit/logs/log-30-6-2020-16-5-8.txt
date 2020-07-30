@@ -1,0 +1,29 @@
+-------------------- Auto-Git Log --------------------
+		Thu Jul 30 2020 16:05:08 GMT-0400 (Eastern Daylight Time)
+------------------------------------------------------
+
+Modified files:
+* Assets/Art/Sprites/Butterfly2.0.controller
+* Assets/Art/Sprites/Coin.controller
+* Assets/Art/Sprites/CoinSpin.anim
+* Assets/RubyFInal2.unity
+* Assets/RubyFinal.unity
+* Assets/Scripts/DamageZone.cs
+* Assets/Scripts/EnemyController.cs
+* Assets/Scripts/FastEnemyController.cs
+* Assets/Scripts/RubyController.cs
+* Assets/Scripts/RubyController.cs.meta
+
+
+Created files:
+* .autogit/logs/log-30-6-2020-15-34-59.txt
+* Assets/Prefabs/cointext.prefab
+* Assets/Prefabs/cointext.prefab.meta
+* Assets/Scripts/CoinCollectible.cs
+* Assets/Scripts/CoinCollectible.cs.meta
+
+
+Deleted files:
+
+
+Renamed files:

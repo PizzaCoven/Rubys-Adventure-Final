@@ -81,7 +81,7 @@ public class EnemyController : MonoBehaviour
         if (player != null)
         {
             player.ChangeHealth(-1);
-            player.ChangeCoin(-1);
+            
         }
 
     }

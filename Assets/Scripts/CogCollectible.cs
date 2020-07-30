@@ -14,7 +14,7 @@ public class CogCollectible : MonoBehaviour
 
         
         if (controller != null)
-        //{
+        {
             if (controller.currentAmmo < controller.maxAmmo)
             {
             	
@@ -23,7 +23,7 @@ public class CogCollectible : MonoBehaviour
               Destroy(gameObject);
               controller.ChangeAmmo(1);
             	//Destroy(gameObject);
-        
+            }
         }
 
     }

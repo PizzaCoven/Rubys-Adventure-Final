@@ -21,7 +21,7 @@ public class CoinCollectible : MonoBehaviour
               
               controller.PlaySound(collectedClip);
               Destroy(gameObject);
-              controller.ChangeCoin(+1);
+              controller.ChangeCoin(1);
              
             	//Destroy(gameObject);
         

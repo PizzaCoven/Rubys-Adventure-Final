@@ -55,8 +55,9 @@ public class RubyController : MonoBehaviour
         currentHealth = maxHealth;
         currentAmmo = maxAmmo;
         
+        
         audioSource = GetComponent<AudioSource>();
-        coinText.GetComponent<Text>().text = currentCoin.ToString();
+       
 
 
     }
@@ -64,6 +65,9 @@ public class RubyController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
+             coinText.GetComponent<Text>().text = currentCoin.ToString();
+
          if (Input.GetKey("escape"))
            { Application.Quit();}
     
@@ -183,9 +187,9 @@ public class RubyController : MonoBehaviour
          public void ChangeCoin(int amount)
         {   
         currentCoin += 1;
-        GetComponent<Text>().text = "" + currentCoin.ToString() + "/5";
-       
+        //GetComponent<Text>().text = "" + currentCoin.ToString() + "/5";
         }
+
    
 
      void FixedUpdate()
