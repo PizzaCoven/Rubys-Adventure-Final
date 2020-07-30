@@ -1,0 +1,19 @@
+-------------------- Auto-Git Log --------------------
+		Thu Jul 30 2020 05:19:44 GMT-0400 (Eastern Daylight Time)
+------------------------------------------------------
+
+Modified files:
+* Assets/Audio/zapsplat_cartoon_fail_brassy_synth_wah_001_45239.mp3.meta
+* Assets/Prefabs/Ruby.prefab
+* Assets/Scripts/RubyController.cs
+* Assets/Scripts/RubyController.cs.meta
+
+
+Created files:
+* .autogit/logs/log-30-6-2020-4-49-27.txt
+
+
+Deleted files:
+
+
+Renamed files:

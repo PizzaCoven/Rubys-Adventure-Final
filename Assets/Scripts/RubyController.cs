@@ -137,22 +137,16 @@ public class RubyController : MonoBehaviour
                         {
                         character.DisplayDialog2();
                         StartCoroutine(WaitForSec());
-                        
+                        }
                     IEnumerator WaitForSec()
                     { 
                         yield return new WaitForSeconds(4);
                         SceneManager.LoadScene("RubyFinal2");
-                        
-                        Debug.Log(RobotsFixed.instance.robotsFixed);
-                        if(RobotsFixed.instance.robotsFixed == 6)
-                        { 
-                            PlaySound(winSound);
-                        }
-                        }
+                    }
                 }
             }
             }
-            }
+            
 //
 
         if (Input.GetKeyDown(KeyCode.X))
@@ -188,7 +182,13 @@ public class RubyController : MonoBehaviour
         position.y = position.y + speed * vertical * Time.deltaTime;
 
         rigidbody2d.MovePosition(position);
-    
+    //
+        Debug.Log(RobotsFixed.instance.robotsFixed);
+     if(RobotsFixed.instance.robotsFixed == 1)
+         { 
+          //GameObject.SetActive(false);
+         PlaySound(winSound);
+           }
     }
     void Restart()
         {

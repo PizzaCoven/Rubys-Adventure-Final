@@ -23319,6 +23319,16 @@ PrefabInstance:
       propertyPath: ammoText
       value: 
       objectReference: {fileID: 992060664}
+    - target: {fileID: 2814498796947850509, guid: d24b1bef8bf6640579cb74801d3119ad,
+        type: 3}
+      propertyPath: winSound
+      value: 
+      objectReference: {fileID: 8300000, guid: e41fd518e49d44f35a3e592582ccef72, type: 3}
+    - target: {fileID: 2814498796947850509, guid: d24b1bef8bf6640579cb74801d3119ad,
+        type: 3}
+      propertyPath: findSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 3cbcf3391adea41ffae9ccdbc510faf0, type: 3}
     - target: {fileID: 2814498796947850736, guid: d24b1bef8bf6640579cb74801d3119ad,
         type: 3}
       propertyPath: m_Name
