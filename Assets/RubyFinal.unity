@@ -637,7 +637,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: RedCogPickUp
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 179771600, guid: c67c87c998e2c44a0b31267769788bc2, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: c67c87c998e2c44a0b31267769788bc2, type: 3}
 --- !u!4 &46034992 stripped
 Transform:
@@ -6775,7 +6776,7 @@ Transform:
   - {fileID: 478464477}
   - {fileID: 1175410182}
   m_Father: {fileID: 0}
-  m_RootOrder: 16
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &949844212
 Animator:
@@ -20817,6 +20818,27 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 358470398}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1629570704 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7830860940589030836, guid: c67c87c998e2c44a0b31267769788bc2,
+    type: 3}
+  m_PrefabInstance: {fileID: 46034991}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1629570706
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1629570704}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a78cd41dbb44c4cc2a0f0c80d05bb64d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  collectedClip: {fileID: 8300000, guid: af5f8b64e3f58f24c87ff8f789b04f6c, type: 3}
+  twinkleEffect: {fileID: 412327291059105354, guid: 3cf435f86e88841ab86de19824d88555,
+    type: 3}
 --- !u!4 &1640379518 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2422568633958796392, guid: 8b46832d6995c4e1aa34ab0d8667be72,
@@ -24194,75 +24216,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a132370570b054a2083f8b62ddff0d0b, type: 3}
---- !u!1001 &1788457295880919245
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 6849178754442034243, guid: eb2b8b2a4a9154db483b2cca2ca7f27e,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6849178754442034243, guid: eb2b8b2a4a9154db483b2cca2ca7f27e,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6849178754442034243, guid: eb2b8b2a4a9154db483b2cca2ca7f27e,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6849178754442034243, guid: eb2b8b2a4a9154db483b2cca2ca7f27e,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6849178754442034243, guid: eb2b8b2a4a9154db483b2cca2ca7f27e,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6849178754442034243, guid: eb2b8b2a4a9154db483b2cca2ca7f27e,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6849178754442034243, guid: eb2b8b2a4a9154db483b2cca2ca7f27e,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6849178754442034243, guid: eb2b8b2a4a9154db483b2cca2ca7f27e,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 15
-      objectReference: {fileID: 0}
-    - target: {fileID: 6849178754442034243, guid: eb2b8b2a4a9154db483b2cca2ca7f27e,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6849178754442034243, guid: eb2b8b2a4a9154db483b2cca2ca7f27e,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6849178754442034243, guid: eb2b8b2a4a9154db483b2cca2ca7f27e,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6849178754442035134, guid: eb2b8b2a4a9154db483b2cca2ca7f27e,
-        type: 3}
-      propertyPath: m_Name
-      value: RedCogBullet
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: eb2b8b2a4a9154db483b2cca2ca7f27e, type: 3}
 --- !u!1001 &2814498795835384973
 PrefabInstance:
   m_ObjectHideFlags: 0
