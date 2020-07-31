@@ -1,0 +1,25 @@
+-------------------- Auto-Git Log --------------------
+		Thu Jul 30 2020 20:06:29 GMT-0400 (Eastern Daylight Time)
+------------------------------------------------------
+
+Modified files:
+* Assets/Scripts/NewProjectile.cs
+* Assets/Scripts/Projectile.cs
+
+
+Created files:
+* .autogit/logs/log-30-6-2020-19-36-21.txt
+* Assets/Art/Sprites/Bot2.png
+* Assets/Art/Sprites/Bot2.png.meta
+* Assets/Art/Sprites/Bot2_8.controller
+* Assets/Art/Sprites/Bot2_8.controller.meta
+* Assets/Art/Sprites/RedBot.anim
+* Assets/Art/Sprites/RedBot.anim.meta
+* Assets/Scripts/RedEnemyController.cs
+* Assets/Scripts/RedEnemyController.cs.meta
+
+
+Deleted files:
+
+
+Renamed files:

@@ -8,7 +8,7 @@ public class RedEnemyController : MonoBehaviour
    public float speed;
     public bool vertical;
     public float changeTime = 3.0f;
-    public ParticleSystem smokeEffect;
+   
     public ParticleSystem sparkEffect;
     AudioSource enemyAudio;
     public AudioClip fixAudioClip;
@@ -99,12 +99,12 @@ public class RedEnemyController : MonoBehaviour
     }
     public void Fix()
     {
-        smokeEffect.Stop();
+        
         sparkEffect.Stop();
         Debug.Log("Fixed!");
         broken = false;
         rigidbody2D.simulated = false;
-        //animator.SetTrigger("Fixed");
+        animator.SetTrigger("Fixed2");
         RobotsFixed.instance.FixRobot();
         enemyAudio.Stop();
         enemyOneShot(fixAudioClip);

@@ -36,8 +36,8 @@ public class RubyController : MonoBehaviour
     public AudioClip findSound;
     public int currentAmmo = 6;
     public int maxAmmo = 6; 
-    public int currentRedAmmo = 2;
-    public int maxRedAmmo = 2; 
+    public int currentRedAmmo = 3;
+    public int maxRedAmmo = 3; 
    
     public Text ammoText;
     public Text ammoRedText;
@@ -58,6 +58,7 @@ public class RubyController : MonoBehaviour
         animator = GetComponent<Animator>();
         currentHealth = maxHealth;
         currentAmmo = maxAmmo;
+        currentRedAmmo = maxRedAmmo;
         
         
         audioSource = GetComponent<AudioSource>();

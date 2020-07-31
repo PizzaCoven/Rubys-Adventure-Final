@@ -4,9 +4,7 @@ MonoImporter:
   externalObjects: {}
   serializedVersion: 2
   defaultReferences:
-  - smokeEffect: {fileID: 5931171914468028500, guid: 6e28d7de458504d589b58a7cb4df0890,
-      type: 3}
-  - sparkEffect: {fileID: 4193331740114179418, guid: 94cf27f95730f40b5a685a1c778e64ae,
+  - sparkEffect: {fileID: 7292278863678956986, guid: 747125ac5283d448581e94f6b78f6049,
       type: 3}
   - fixAudioClip: {fileID: 8300000, guid: e7fa1971a86d60945bb64585c0ac14d5, type: 3}
   executionOrder: 0
