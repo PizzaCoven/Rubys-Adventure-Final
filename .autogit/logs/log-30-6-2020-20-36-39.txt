@@ -1,0 +1,29 @@
+-------------------- Auto-Git Log --------------------
+		Thu Jul 30 2020 20:36:39 GMT-0400 (Eastern Daylight Time)
+------------------------------------------------------
+
+Modified files:
+* Assets/Art/Animations/Robot.controller
+* Assets/Art/Sprites/RedBot.anim
+* Assets/RubyFinal.unity
+* Assets/Scripts/NewProjectile.cs
+* Assets/Scripts/RedEnemyController.cs
+* Assets/Scripts/RedEnemyController.cs.meta
+* Assets/Scripts/RubyController.cs
+
+
+Created files:
+* .autogit/logs/log-30-6-2020-20-6-29.txt
+* Assets/Art/Animations/Bot2_8.controller
+* Assets/Art/Sprites/BackgroundMusic.controller
+* Assets/Art/Sprites/BackgroundMusic.controller.meta
+* Assets/Prefabs/RedBot2.prefab
+* Assets/Prefabs/RedBot2.prefab.meta
+
+
+Deleted files:
+* Assets/Art/Sprites/Bot2_8.controller
+
+
+Renamed files:
+* [object Object]
