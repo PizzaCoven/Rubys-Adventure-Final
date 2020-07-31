@@ -1,0 +1,20 @@
+-------------------- Auto-Git Log --------------------
+		Thu Jul 30 2020 21:37:02 GMT-0400 (Eastern Daylight Time)
+------------------------------------------------------
+
+Modified files:
+* Assets/Menu.unity
+* Assets/RubyFInal2.unity
+* Assets/RubyFinal.unity
+
+
+Created files:
+* .autogit/logs/log-30-6-2020-21-6-51.txt
+* Assets/Scripts/MainMenu.cs
+* Assets/Scripts/MainMenu.cs.meta
+
+
+Deleted files:
+
+
+Renamed files:
