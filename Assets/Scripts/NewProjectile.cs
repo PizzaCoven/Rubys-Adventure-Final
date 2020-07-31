@@ -25,7 +25,7 @@ public class NewProjectile : MonoBehaviour
     
     void OnCollisionEnter2D(Collision2D other)
     {
-        FastEnemyController b = other.collider.GetComponent<FastEnemyController>();
+        RedEnemyController b = other.collider.GetComponent<RedEnemyController>();
         if (b != null)
         {
             b.Fix();

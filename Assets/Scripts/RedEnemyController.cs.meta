@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 110f10ee0acd3484797c7fcc0bf8e3ac
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - smokeEffect: {fileID: 5931171914468028500, guid: 6e28d7de458504d589b58a7cb4df0890,
+      type: 3}
+  - sparkEffect: {fileID: 4193331740114179418, guid: 94cf27f95730f40b5a685a1c778e64ae,
+      type: 3}
+  - fixAudioClip: {fileID: 8300000, guid: e7fa1971a86d60945bb64585c0ac14d5, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
