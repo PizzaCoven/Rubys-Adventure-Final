@@ -1,0 +1,24 @@
+-------------------- Auto-Git Log --------------------
+		Thu Jul 30 2020 21:06:51 GMT-0400 (Eastern Daylight Time)
+------------------------------------------------------
+
+Modified files:
+* Assets/Art/Animations/Bot2_8.controller
+* Assets/RubyFInal2.unity
+* Assets/RubyFinal.unity
+
+
+Created files:
+* .autogit/logs/log-30-6-2020-20-36-39.txt
+* Assets/Art/Sprites/BotFixed.anim
+* Assets/Art/Sprites/BotFixed.anim.meta
+* Assets/Art/Sprites/ruby11.png
+* Assets/Art/Sprites/ruby11.png.meta
+* Assets/Menu.unity
+* Assets/Menu.unity.meta
+
+
+Deleted files:
+
+
+Renamed files:
